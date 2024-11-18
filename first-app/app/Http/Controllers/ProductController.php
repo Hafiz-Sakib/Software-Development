@@ -38,7 +38,7 @@ class ProductController extends Controller
         $product->name = $request->name;
         $product->sku = $request->sku;
         $product->price = $request->price;
-        $product->descroption = $request->descroption;
+        $product->description = $request->description;
         $product->save();
 
         return redirect()->route('products.index')->with('success', 'Product Added Successfully.');
