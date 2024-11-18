@@ -9,7 +9,10 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     // This Method Will Show products page
-    public function index() {}
+    public function index()
+    {
+        //hello
+    }
     //This Method Will Show Create Product page
     public function create()
     {
