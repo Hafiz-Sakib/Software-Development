@@ -9,7 +9,10 @@ use Illuminate\Support\Facades\Validator;
 class ProductController extends Controller
 {
     // This method will show products page
-    public function index() {}
+    public function index()
+    {
+        return view('products.list');
+    }
 
     // This method will show create product page
     public function create()

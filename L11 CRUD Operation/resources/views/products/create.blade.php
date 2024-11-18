@@ -11,6 +11,13 @@
 <div class="bg-blue-500 py-3">
     <h1 class="text-white  text-center text-xl">Laravel 11 Simple CRUD Application</h1>
 </div>
+<div class="relative h-16">
+    <a href="{{ route('products.index') }}"
+       class="absolute top-2 right-2 bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition duration-200">
+        Back
+    </a>
+</div>
+
 <div class="bg-gray-100 flex justify-center items-center min-h-screen">
 
     <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
