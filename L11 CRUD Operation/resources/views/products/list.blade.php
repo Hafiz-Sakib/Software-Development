@@ -51,7 +51,7 @@
                             </td>
                             <td class="py-3 px-6">{{ \Carbon\Carbon::parse($product->created_at)->format('d M, Y') }}</td>
                             <td class="py-3 px-6">
-                                <a href="#" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Edit</a>
+                                <a href="{{route('products.edit',$product->id)}}" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Edit</a>
                                 <a href="#" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-500 ml-2">Delete</a>
                             </td>
                         </tr>

@@ -21,7 +21,7 @@
 <div class="bg-gray-100 flex justify-center items-center min-h-screen">
 
     <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
-        <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Product Entry Form</h1>
+        <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Edit Product Form</h1>
         <form action="{{route('products.store')}}" method="POST" enctype="multipart/form-data"
               enctype="multipart/form-data" >
             @csrf

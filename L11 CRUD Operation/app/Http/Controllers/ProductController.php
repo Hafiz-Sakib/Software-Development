@@ -70,7 +70,10 @@ class ProductController extends Controller
     }
 
     // This method will show edit product page
-    public function edit($id) {}
+    public function edit($id)
+    {
+        return view('products.edit');
+    }
 
     // This method will update a product
     public function update($id, Request $request) {}
