@@ -73,13 +73,39 @@ class ProductController extends Controller
     public function edit($id)
     {
         $product = Product::findOrFail($id);
-        return view('products.edit', [
-            "product" => $product
-        ]);
+        return view('products.edit', compact('product'));
     }
 
+
     // This method will update a product
-    public function update($id, Request $request) {}
+    public function update(Request $request, $id)
+    {
+        $product = Product::findOrFail($id);
+
+        $request->validate([
+            'name' => 'required',
+            'sku' => 'required',
+            'price' => 'required|numeric',
+            'description' => 'required',
+            'image' => 'nullable|image|max:2048',
+        ]);
+
+        $product->name = $request->name;
+        $product->sku = $request->sku;
+        $product->price = $request->price;
+        $product->description = $request->description;
+
+        if ($request->hasFile('image')) {
+            // Handle image upload logic
+            $imagePath = $request->file('image')->store('public/images');
+            $product->image = basename($imagePath); // Store the file name in the database
+        }
+
+        $product->save();
+
+        return redirect()->route('products.index')->with('success', 'Product updated successfully');
+    }
+
 
     // This method will delete a product
     public function destroy($id) {}
