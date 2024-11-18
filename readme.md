@@ -5,5 +5,5 @@
 ## Lecturer,Premier University,Chittagong
 
 <p align="center"> 
-<img  width="100%" src="./p3.jpeg">
+<img  width="75%" src="./p3.jpeg">
 </p>
