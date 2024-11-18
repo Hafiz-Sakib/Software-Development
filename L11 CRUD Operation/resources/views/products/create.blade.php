@@ -22,7 +22,8 @@
 
     <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
         <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Product Entry Form</h1>
-        <form action="{{route('products.store')}}" method="POST" enctype="multipart/form-data">
+        <form action="{{route('products.store')}}" method="POST" enctype="multipart/form-data"
+              enctype="multipart/form-data" >
             @csrf
             <!-- Name -->
             <div class="mb-4">
