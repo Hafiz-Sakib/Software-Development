@@ -50,9 +50,18 @@
                                 @endif
                             </td>
                             <td class="py-3 px-6">{{ \Carbon\Carbon::parse($product->created_at)->format('d M, Y') }}</td>
-                            <td class="py-3 px-6">
-                                <a href="{{route('products.edit',$product->id)}}" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Edit</a>
-                                <a href="#" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-500 ml-2">Delete</a>
+                            <td class="py-3 px-6 flex items-center space-x-2">
+                                <!-- Edit button -->
+                                <a href="{{ route('products.edit', $product->id) }}" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Edit</a>
+
+                                <!-- Delete button -->
+                                <form action="{{ route('products.destroy', $product->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-500">
+                                        Delete
+                                    </button>
+                                </form>
                             </td>
                         </tr>
                         @endforeach

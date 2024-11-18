@@ -108,5 +108,23 @@ class ProductController extends Controller
 
 
     // This method will delete a product
-    public function destroy($id) {}
+    public function destroy($id)
+    {
+        // Find the product by ID
+        $product = Product::findOrFail($id);
+
+        // Check if the product has an image and delete it from the file system
+        if ($product->image) {
+            $imagePath = public_path('uploads/products/' . $product->image);
+            if (file_exists($imagePath)) {
+                unlink($imagePath); // Delete the image
+            }
+        }
+
+        // Delete the product from the database
+        $product->delete();
+
+        // Redirect to the product index page with a success message
+        return redirect()->route('products.index')->with('success', 'Product deleted successfully.');
+    }
 }
