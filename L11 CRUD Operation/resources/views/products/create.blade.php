@@ -22,36 +22,38 @@
 
     <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
         <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Product Entry Form</h1>
-        <form action="{{route('products.store')}}" method="POST" enctype="multipart/form-data"
-              enctype="multipart/form-data" >
+        <form action="{{route('products.store')}}" method="POST" enctype="multipart/form-data">
             @csrf
             <!-- Name -->
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-                <input type="text" id="name" name="name" required
-                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 invalid:border-red-500 invalid:focus:ring-red-500>
-                    @error('name')
-                        <p class="invalid-feedback">{{$message}}</p>
-                    @enderror
+                <input type="text" id="name" name="name" value="{{ old('name') }}" required
+                    class="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+                    @if($errors->has('name')) border-red-500 @else @endif">
+                @error('name')
+                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                @enderror
             </div>
 
             <!-- SKU -->
             <div class="mb-4">
                 <label for="sku" class="block text-sm font-medium text-gray-700">SKU</label>
-                <input type="text" id="sku" name="sku" required
-                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 invalid:border-red-500 invalid:focus:ring-red-500">
-                    @error('sku')
-                    <p class="invalid-feedback">{{$message}}</p>
+                <input type="text" id="sku" name="sku" value="{{ old('sku') }}" required
+                    class="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+                    @if($errors->has('sku')) border-red-500 @else @endif">
+                @error('sku')
+                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                 @enderror
             </div>
 
             <!-- Price -->
             <div class="mb-4">
                 <label for="price" class="block text-sm font-medium text-gray-700">Price</label>
-                <input type="number" id="price" name="price" required step="0.01"
-                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 invalid:border-red-500 invalid:focus:ring-red-500">
-                    @error('price')
-                    <p class="invalid-feedback">{{$message}}</p>
+                <input type="number" id="price" name="price" value="{{ old('price') }}" required step="0.01"
+                    class="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+                    @if($errors->has('price')) border-red-500 @else @endif">
+                @error('price')
+                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                 @enderror
             </div>
 
@@ -59,14 +61,21 @@
             <div class="mb-4">
                 <label for="description" class="block text-sm font-medium text-gray-700">Description</label>
                 <textarea id="description" name="description" rows="4" required
-                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "></textarea>
+                    class="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+                    @if($errors->has('description')) border-red-500 @else @endif">{{ old('description') }}</textarea>
+                @error('description')
+                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                @enderror
             </div>
 
             <!-- Image -->
             <div class="mb-6">
                 <label for="image" class="block text-sm font-medium text-gray-700">Image</label>
                 <input type="file" id="image" name="image" accept="image/*"
-                    class="mt-1 block w-full text-gray-500 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    class="mt-1 block w-full text-gray-500 px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                @error('image')
+                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                @enderror
             </div>
 
             <!-- Submit Button -->

@@ -72,7 +72,10 @@ class ProductController extends Controller
     // This method will show edit product page
     public function edit($id)
     {
-        return view('products.edit');
+        $product = Product::findOrFail($id);
+        return view('products.edit', [
+            "product" => $product
+        ]);
     }
 
     // This method will update a product
