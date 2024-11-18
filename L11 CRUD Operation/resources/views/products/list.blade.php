@@ -8,6 +8,7 @@
     <title>View Product List</title>
 </head>
 <body>
+    <!-- Success Message -->
     <div class="flex justify-center mt-4">
         @if (Session::has('success'))
         <div class="w-full max-w-3xl">
@@ -19,50 +20,50 @@
         @endif
     </div>
 
+    <!-- Product Table -->
     <div class="container mx-auto px-4 mt-10">
         <h1 class="text-2xl font-bold mb-6 text-center text-blue-600">Product List</h1>
         <div class="overflow-x-auto">
-          <table class="min-w-full bg-white border border-gray-200 rounded-lg">
-            <thead class="bg-blue-600">
-              <tr>
-                <th class="py-3 px-6 text-left font-medium text-black">Name</th>
-                <th class="py-3 px-6 text-left font-medium text-black">SKU</th>
-                <th class="py-3 px-6 text-left font-medium text-black">Price</th>
-                <th class="py-3 px-6 text-left font-medium text-black">Description</th>
-                <th class="py-3 px-6 text-left font-medium text-black">Image</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="border-t hover:bg-gray-50">
-                <td class="py-3 px-6">Product 1</td>
-                <td class="py-3 px-6">SKU001</td>
-                <td class="py-3 px-6">$50</td>
-                <td class="py-3 px-6">A great product!</td>
-                <td class="py-3 px-6">
-                  <img
-                    src="https://via.placeholder.com/50"
-                    alt="Product Image"
-                    class="w-12 h-12 rounded-md"
-                  />
-                </td>
-              </tr>
-              <tr class="border-t hover:bg-gray-50">
-                <td class="py-3 px-6">Product 2</td>
-                <td class="py-3 px-6">SKU002</td>
-                <td class="py-3 px-6">$100</td>
-                <td class="py-3 px-6">Another awesome product!</td>
-                <td class="py-3 px-6">
-                  <img
-                    src="https://via.placeholder.com/50"
-                    alt="Product Image"
-                    class="w-12 h-12 rounded-md"
-                  />
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                <thead class="bg-blue-600">
+                    <tr>
+                        <th class="py-3 px-6 text-left font-medium text-black">Name</th>
+                        <th class="py-3 px-6 text-left font-medium text-black">SKU</th>
+                        <th class="py-3 px-6 text-left font-medium text-black">Price</th>
+                        <th class="py-3 px-6 text-left font-medium text-black">Description</th>
+                        <th class="py-3 px-6 text-left font-medium text-black">Image</th>
+                        <th class="py-3 px-6 text-left font-medium text-black">Created at</th>
+                        <th class="py-3 px-6 text-left font-medium text-black">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if ($products->isNotEmpty())
+                        @foreach ($products as $product)
+                        <tr class="border-t hover:bg-gray-50">
+                            <td class="py-3 px-6">{{ $product->name }}</td>
+                            <td class="py-3 px-6">{{ $product->sku }}</td>
+                            <td class="py-3 px-6">{{ $product->price }}</td>
+                            <td class="py-3 px-6">{{ $product->description }}</td>
+                            <td class="py-3 px-6">
+                                @if ($product->image != "")
+                                <img src="{{ asset('uploads/products/'.$product->image) }}" alt="Product Image" class="w-12 h-12 rounded-md" />
+                                @endif
+                            </td>
+                            <td class="py-3 px-6">{{ \Carbon\Carbon::parse($product->created_at)->format('d M, Y') }}</td>
+                            <td class="py-3 px-6">
+                                <a href="#" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Edit</a>
+                                <a href="#" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-500 ml-2">Delete</a>
+                            </td>
+                        </tr>
+                        @endforeach
+                    @else
+                        <tr>
+                            <td colspan="7" class="text-center py-3 px-6">No products found.</td>
+                        </tr>
+                    @endif
+                </tbody>
+            </table>
         </div>
-      </div>
-
+    </div>
 </body>
 </html>
