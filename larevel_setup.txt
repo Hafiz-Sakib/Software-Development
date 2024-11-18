@@ -1,0 +1,13 @@
+Install Xampp and Composer
+
+Open Xampp Servers
+
+Goto Xampp--> php --> php.ini --> search Zip --> Remove Semicolon
+
+
+composer create-project laravel/laravel:^11.0 first-app 
+
+php artisan serve
+
+
+https://www.youtube.com/watch?v=KEWX0d2z3_Q
