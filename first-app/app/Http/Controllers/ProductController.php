@@ -9,7 +9,10 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     // This Method Will Show products page
-    public function index() {}
+    public function index()
+    {
+        return view('products.list');
+    }
     //This Method Will Show Create Product page
     public function create()
     {
@@ -38,7 +41,7 @@ class ProductController extends Controller
         $product->descroption = $request->descroption;
         $product->save();
 
-        return redirect();
+        return redirect()->route('products.index')->with('success', 'Product Added Successfully.');
     }
     //This Method Will show edit Product page
     public function edit() {}
