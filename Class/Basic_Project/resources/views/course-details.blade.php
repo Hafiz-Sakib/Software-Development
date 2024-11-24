@@ -14,9 +14,10 @@
                 You are viewing details for <span class="font-semibold text-blue-500">Course ID: {{ $id }}</span>
             </p>
             <div class="flex justify-center space-x-4">
-                <button class="px-6 py-3 bg-green-500 text-white font-medium rounded-lg shadow-md hover:bg-green-600 transition-all">
-                    Enroll Now
-                </button>
+                <a href="{{ route('enroll') }}"
+                   class="px-6 py-3 bg-gray-300 text-gray-800 font-medium rounded-lg shadow-md hover:bg-gray-400 transition-all">
+                   Enroll Now
+                </a>
                 <a href="{{ route('courses') }}"
                    class="px-6 py-3 bg-gray-300 text-gray-800 font-medium rounded-lg shadow-md hover:bg-gray-400 transition-all">
                    Back to Courses
