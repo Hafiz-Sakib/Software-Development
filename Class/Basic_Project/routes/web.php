@@ -1,15 +1,33 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
-Route::get('/demo', function () {
-    return view('demo');
-});
+Route::get('/courses', function () {
+    return view('courses');
+})->name('courses');
 
-Route::get('/demo1', function () {
-    return view('demo1');
-});
+Route::get('/course/{id}', function ($id) {
+    return view('course-details', ['id' => $id]);
+})->name('course.details');
+
+Route::get('/enroll', function () {
+    return view('enroll');
+})->name('enroll');
+
+Route::get('/signup', function () {
+    return view('signup');
+})->name('signup');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');

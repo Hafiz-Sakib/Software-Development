@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
-    <title>Document</title>
+    <title>Online Course Platform</title>
 </head>
 <body>
-    <a href="{{url('/demo')}}" class="m-48 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
-        Click Me
-      </a>
+    <h1>Welcome to the Online Course Platform!</h1>
+    <nav>
+        <a href="{{ route('courses') }}">View Courses</a> |
+        <a href="{{ route('signup') }}">Sign Up</a> |
+        <a href="{{ route('login') }}">Login</a> |
+        <a href="{{ route('about') }}">About Us</a>
+    </nav>
 </body>
 </html>
