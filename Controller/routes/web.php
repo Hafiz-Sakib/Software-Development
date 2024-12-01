@@ -22,3 +22,5 @@ Route::post('/submit', [ExampleController::class, 'handleForm']);
 // Part 02 Have Started
 
 Route::get('/conditional_message', [ExampleController::class, 'checkCondition']);
+
+Route::get('/numbers', [ExampleController::class, 'generateNumbers']);

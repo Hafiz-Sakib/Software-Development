@@ -51,4 +51,14 @@ class ExampleController extends Controller
         }
         return view('conditional_message', ['message' => $message]);
     }
+
+
+    public function generateNumbers()
+    {
+        $numbers = [];
+        for ($i = 1; $i <= 100; $i++) {
+            $numbers[] = $i;
+        }
+        return view('numbers', ['numbers' => $numbers]);
+    }
 }
