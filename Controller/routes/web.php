@@ -26,9 +26,6 @@ Route::get('/conditional_message', [ExampleController::class, 'checkCondition'])
 Route::get('/numbers', [ExampleController::class, 'generateNumbers']);
 
 
-Route::get('/choose-color-form', function () {
-    return view('choose-color-form');
-})->name('choose-color-form');
-Route::post('/choose-color', [ExampleController::class, 'redirectToColor'])->name('redirect-to-color');
 
+Route::post('/choose-color-form', [ExampleController::class, 'handleColorForm'])->name('handleColorForm');
 Route::get('/color/{color}', [ExampleController::class, 'chooseColor']);

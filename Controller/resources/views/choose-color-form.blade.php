@@ -15,7 +15,7 @@
         <h1 class="text-3xl font-bold mb-4 text-indigo-600">Choose Your Color</h1>
 
         <!-- Color Input Form -->
-        <form action="{{ url('/choose-color-form') }}" method="POST" class="space-y-4">
+        <form action="{{ route('handleColorForm') }}" method="POST" class="space-y-4">
             @csrf <!-- CSRF Token -->
             <div>
                 <label for="color" class="block text-gray-700 font-semibold mb-2">Enter a Color:</label>

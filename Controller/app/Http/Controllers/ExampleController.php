@@ -63,12 +63,16 @@ class ExampleController extends Controller
     }
 
 
-    public function redirectToColor(Request $request)
+    public function handleColorForm(Request $request)
     {
-        $color = strtolower(trim($request->input('color')));
-        return view('color', ['color' => $color]);
-    }
+        // Validate the input to ensure it's not empty
+        $validated = $request->validate([
+            'color' => 'required|string',
+        ]);
 
+        // Redirect to the color display route
+        return redirect()->route('color', ['color' => strtolower($validated['color'])]);
+    }
 
     public function chooseColor($color)
     {
