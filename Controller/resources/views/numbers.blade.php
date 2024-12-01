@@ -23,7 +23,7 @@
             <h2 class="text-2xl font-semibold text-indigo-500 mb-4">Numbers:</h2>
 
             <!-- Numbers Grid -->
-            <div class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4 text-gray-700 text-center">
+            <div class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 gap-4 text-gray-700 text-center">
                 @foreach ($numbers as $number)
                     <div class="bg-indigo-50 p-2 rounded-md shadow-sm font-medium">
                         {{ $number }}
