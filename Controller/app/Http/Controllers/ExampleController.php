@@ -63,6 +63,13 @@ class ExampleController extends Controller
     }
 
 
+    public function redirectToColor(Request $request)
+    {
+        $color = strtolower(trim($request->input('color')));
+        return view('color', ['color' => $color]);
+    }
+
+
     public function chooseColor($color)
     {
         switch ($color) {

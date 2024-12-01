@@ -28,7 +28,7 @@
 
         <!-- Navigation Button -->
         <div class="mt-6">
-            <a href="/" class="text-indigo-500 hover:text-indigo-700 font-semibold underline">
+            <a href="{{route('choose-color-form')}}" class="text-indigo-500 hover:text-indigo-700 font-semibold underline">
                 Choose Again
             </a>
         </div>
