@@ -24,3 +24,5 @@ Route::post('/submit', [ExampleController::class, 'handleForm']);
 Route::get('/conditional_message', [ExampleController::class, 'checkCondition']);
 
 Route::get('/numbers', [ExampleController::class, 'generateNumbers']);
+
+Route::get('/color/{color}', [ExampleController::class, 'chooseColor']);

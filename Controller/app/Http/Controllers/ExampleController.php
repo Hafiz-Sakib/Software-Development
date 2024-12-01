@@ -61,4 +61,27 @@ class ExampleController extends Controller
         }
         return view('numbers', ['numbers' => $numbers]);
     }
+
+
+    public function chooseColor($color)
+    {
+        switch ($color) {
+            case 'red':
+                $message = "You chose Red.";
+                $color = 'red';
+                break;
+            case 'blue':
+                $message = "You chose Blue.";
+                $color = 'blue';
+                break;
+            case 'green':
+                $message = "You chose Green.";
+                $color = 'green';
+                break;
+            default:
+                $message = "Invalid color.";
+                $color = 'gray';  // Default color for invalid input
+        }
+        return view('color', ['message' => $message, 'color' => $color]);
+    }
 }
