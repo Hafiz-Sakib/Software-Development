@@ -33,10 +33,5 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-4 mt-6">
-        <p class="text-sm">&copy; 2024 Numbers List. All rights reserved.</p>
-    </footer>
-
 </body>
 </html>
