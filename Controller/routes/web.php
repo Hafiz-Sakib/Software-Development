@@ -27,5 +27,5 @@ Route::get('/numbers', [ExampleController::class, 'generateNumbers']);
 
 
 
-Route::post('/choose-color-form', [ExampleController::class, 'handleColorForm'])->name('handleColorForm');
+
 Route::get('/color/{color}', [ExampleController::class, 'chooseColor']);
