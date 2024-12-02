@@ -31,7 +31,7 @@
             </div>
             <button
                 type="submit"
-                class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-lg font-semibold">
+                class="w-full bg-cyan-500 shadow-2xl shadow-cyan-500 hover:bg-indigo-600 text-white py-3 rounded-lg font-semibold">
                 Submit
             </button>
         </form>
