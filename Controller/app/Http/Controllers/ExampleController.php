@@ -190,4 +190,14 @@ class ExampleController extends Controller
 
         return redirect('/color/' . strtolower($request->input('color')));
     }
+
+
+    public function randomNumbers()
+    {
+        $randomNumbers = [];
+        for ($i = 0; $i < 50; $i++) {
+            $randomNumbers[] = rand(1, 100); // Generate random numbers between 1 and 100
+        }
+        return view('random', ['randomNumbers' => $randomNumbers]);
+    }
 }
