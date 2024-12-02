@@ -15,7 +15,7 @@
         <h1 class="text-3xl font-bold mb-4 text-indigo-600">Enter Your Age</h1>
 
         <!-- Age Input Form -->
-        <form action="/check-access" method="POST" class="space-y-4 mb-8 px-52">
+        <form action="{{ route('check-access') }}" method="POST" class="space-y-4 mb-8 px-52">
             @csrf <!-- CSRF Token -->
             <div>
                 <input

@@ -35,6 +35,11 @@ Route::post('/choose-color', [ExampleController::class, 'handleChooseColor']);
 
 
 
-Route::get('/input-age', [ExampleController::class, 'showForm']); // Route to display the form
-Route::post('/check-access', [ExampleController::class, 'showAgePage']); // Route to handle form submission
-Route::get('/age/{age}', [ExampleController::class, 'showAgePage']); // Route for age-based page (adult or minor)
+// Route to show the form where the user can enter their age
+Route::get('/input-age', [ExampleController::class, 'showForm']);
+
+// Route to handle form submission, passing age as a parameter
+Route::post('/check-access', [ExampleController::class, 'checkAccess'])->name('check-access');
+
+// Route for age-based page (adult or minor) with age as a URL parameter
+Route::get('/check-access/{age}', [ExampleController::class, 'checkAgePage'])->name('check-access-age');
