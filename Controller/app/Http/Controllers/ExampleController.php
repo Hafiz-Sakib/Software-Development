@@ -208,25 +208,14 @@ class ExampleController extends Controller
         return view('input-age');
     }
 
-    public function checkAccess(Request $request)
+    public function showAgePage(Request $request)
     {
-        // Validate the age input
-        $age = $request->input('age');
+        $age = $request->input('age');  // Get age from form submission
 
         if ($age >= 18) {
-            return redirect()->route('adult', ['age' => $age]);
+            return view('adult', ['age' => $age]);
         } else {
-            return redirect()->route('minor', ['age' => $age]);
+            return view('minor', ['age' => $age]);
         }
-    }
-
-    public function adult($age)
-    {
-        return view('adult', ['age' => $age]);
-    }
-
-    public function minor($age)
-    {
-        return view('minor', ['age' => $age]);
     }
 }
