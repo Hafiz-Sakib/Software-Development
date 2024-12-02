@@ -12,8 +12,8 @@
     <!-- Header Section -->
     <header class="bg-indigo-600 text-white py-4">
         <div class="container mx-auto text-center">
-            <h1 class="text-3xl font-bold">Generated Numbers</h1>
-            <p class="mt-2">A List of Numbers from 1 to 1000</p>
+            <h1 class="text-3xl font-bold">Random Numbers</h1>
+            <p class="mt-2">A List of Random Numbers Between 999 to 9999</p>
         </div>
     </header>
 

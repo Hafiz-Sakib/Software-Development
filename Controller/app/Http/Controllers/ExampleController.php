@@ -196,7 +196,7 @@ class ExampleController extends Controller
     {
         $randomNumbers = [];
         for ($i = 0; $i < 50; $i++) {
-            $randomNumbers[] = rand(1, 100); // Generate random numbers between 1 and 100
+            $randomNumbers[] = rand(999, 9999); // Generate random numbers between 1 and 100
         }
         return view('random', ['randomNumbers' => $randomNumbers]);
     }
