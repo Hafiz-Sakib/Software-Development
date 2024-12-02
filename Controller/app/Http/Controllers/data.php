@@ -114,7 +114,7 @@ $subjects = [
 $grades = ['A', 'A-', 'B+', 'B', 'C+', 'C', 'D+', 'D'];
 
 $data = [];
-for ($i = 0; $i < 1000; $i++) {
+for ($i = 0; $i < 1500; $i++) {
     $name = $names[array_rand($names)];
     $score = rand(60, 100); // Score between 60 and 100
     $age = rand(18, 25); // Age between 18 and 25
