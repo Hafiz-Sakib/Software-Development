@@ -222,8 +222,8 @@ class ExampleController extends Controller
     {
         // Determine if the user is an adult or minor
         if ($age >= 18) {
-            return view('adult', compact('age'));
+            return view('adult', ['age' => $age]);
         }
-        return view('minor', compact('age'));
+        return view('minor', ['age' => $age]);
     }
 }
