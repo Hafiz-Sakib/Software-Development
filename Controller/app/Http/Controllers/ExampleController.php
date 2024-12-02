@@ -63,6 +63,16 @@ class ExampleController extends Controller
     }
 
 
+    public function randomNumbers()
+    {
+        $randomNumbers = [];
+        for ($i = 0; $i < 50; $i++) {
+            $randomNumbers[] = rand(999, 9999); // Generate random numbers between 1 and 100
+        }
+        return view('random', ['randomNumbers' => $randomNumbers]);
+    }
+
+
     public function chooseColor($color)
     {
         switch ($color) {
@@ -192,12 +202,13 @@ class ExampleController extends Controller
     }
 
 
-    public function randomNumbers()
+
+    public function checkAccess($age)
     {
-        $randomNumbers = [];
-        for ($i = 0; $i < 50; $i++) {
-            $randomNumbers[] = rand(999, 9999); // Generate random numbers between 1 and 100
+        if ($age >= 18) {
+            return view('adult', ['age' => $age]);
+        } else {
+            return view('minor', ['age' => $age]);
         }
-        return view('random', ['randomNumbers' => $randomNumbers]);
     }
 }
