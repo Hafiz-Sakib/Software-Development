@@ -11,12 +11,12 @@
 <body class="bg-gray-50 flex items-center justify-center min-h-screen font-sans">
 
     <!-- Form Container -->
-    <div class="m-8 bg-cyan-500 shadow-2xl shadow-[0px_10px_800px_rgba(6,182,212,0.5)]
+    <div class="m-8 shadow-[0px_10px_800px_rgba(6,182,212,0.5)]
      border-2 border-cyan-500 max-w-4xl bg-white rounded-lg p-6 text-center">
         <h1 class="text-3xl font-bold mb-4 text-indigo-600">Choose Your Color</h1>
 
         <!-- Color Input Form -->
-        <form action="/choose-color" method="POST" class="space-y-4 mb-8">
+        <form action="/choose-color" method="POST" class="space-y-4 mb-8 px-52">
             @csrf <!-- CSRF Token -->
             <div>
                 <label for="color" class="block text-gray-700 font-semibold mb-2">Enter a Color:</label>
