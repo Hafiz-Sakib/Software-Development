@@ -84,4 +84,18 @@ class ExampleController extends Controller
         }
         return view('color', ['message' => $message, 'color' => $color]);
     }
+
+    public function showChooseColorForm()
+    {
+        return view('choose-color-form');
+    }
+
+    public function handleChooseColor(Request $request)
+    {
+        $request->validate([
+            'color' => 'required|string',
+        ]);
+
+        return redirect('/color/' . strtolower($request->input('color')));
+    }
 }
