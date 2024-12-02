@@ -226,4 +226,14 @@ class ExampleController extends Controller
         }
         return view('minor', ['age' => $age]);
     }
+
+    public function simulateApi()
+    {
+        $data = include('C:\PU Projects\PUC Courses\6th Semester\Software Development\Controller\app\Http\Controllers\data.php');
+
+        // Assuming you're passing $data to the view
+        //  dd($data);  // This will output the contents and type of $data
+
+        return view('api-simulation', ['data' => $data]);
+    }
 }

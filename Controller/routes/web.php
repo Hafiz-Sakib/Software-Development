@@ -43,3 +43,6 @@ Route::post('/check-access', [ExampleController::class, 'checkAccess'])->name('c
 
 // Route for age-based page (adult or minor) with age as a URL parameter
 Route::get('/check-access/{age}', [ExampleController::class, 'checkAgePage'])->name('check-access-age');
+
+
+Route::get('/api-simulation', [ExampleController::class, 'simulateApi']);
