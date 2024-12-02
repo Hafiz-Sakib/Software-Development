@@ -78,6 +78,98 @@ class ExampleController extends Controller
                 $message = "You chose Green.";
                 $color = 'green';
                 break;
+            case 'yellow':
+                $message = "You chose Yellow.";
+                $color = 'yellow';
+                break;
+            case 'purple':
+                $message = "You chose Purple.";
+                $color = 'purple';
+                break;
+            case 'orange':
+                $message = "You chose Orange.";
+                $color = 'orange';
+                break;
+            case 'pink':
+                $message = "You chose Pink.";
+                $color = 'pink';
+                break;
+            case 'brown':
+                $message = "You chose Brown.";
+                $color = 'brown';
+                break;
+            case 'black':
+                $message = "You chose Black.";
+                $color = 'black';
+                break;
+            case 'white':
+                $message = "You chose White.";
+                $color = 'white';
+                break;
+            case 'gray':
+                $message = "You chose Gray.";
+                $color = 'gray';
+                break;
+            case 'cyan':
+                $message = "You chose Cyan.";
+                $color = 'cyan';
+                break;
+            case 'magenta':
+                $message = "You chose Magenta.";
+                $color = 'magenta';
+                break;
+            case 'lime':
+                $message = "You chose Lime.";
+                $color = 'lime';
+                break;
+            case 'gold':
+                $message = "You chose Gold.";
+                $color = 'gold';
+                break;
+            case 'silver':
+                $message = "You chose Silver.";
+                $color = 'silver';
+                break;
+            case 'beige':
+                $message = "You chose Beige.";
+                $color = 'beige';
+                break;
+            case 'peach':
+                $message = "You chose Peach.";
+                $color = 'peach';
+                break;
+            case 'tan':
+                $message = "You chose Tan.";
+                $color = 'tan';
+                break;
+            case 'navy':
+                $message = "You chose Navy.";
+                $color = 'navy';
+                break;
+            case 'aqua':
+                $message = "You chose Aqua.";
+                $color = 'aqua';
+                break;
+            case 'ivory':
+                $message = "You chose Ivory.";
+                $color = 'ivory';
+                break;
+            case 'coral':
+                $message = "You chose Coral.";
+                $color = 'coral';
+                break;
+            case 'plum':
+                $message = "You chose Plum.";
+                $color = 'plum';
+                break;
+            case 'mint':
+                $message = "You chose Mint.";
+                $color = 'mint';
+                break;
+            case 'lavender':
+                $message = "You chose Lavender.";
+                $color = 'lavender';
+                break;
             default:
                 $message = "Invalid color.";
                 $color = 'gray';  // Default color for invalid input
