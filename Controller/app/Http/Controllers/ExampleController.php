@@ -30,13 +30,13 @@ class ExampleController extends Controller
         return view('showList', ['items' => $items]);
     }
 
-    public function handleForm(Request $request)
+    public function handleBasicForm(Request $request)
     {
         $name = $request->input('name');
         $email = $request->input('email');
         $phone = $request->input('phone');
         $address = $request->input('address');
-        return view('info', ['name' => $name, 'email' => $email, 'phone' => $phone, 'address' => $address]);
+        return view('show-basic-info', ['name' => $name, 'email' => $email, 'phone' => $phone, 'address' => $address]);
     }
 
     // Part 02 Have Started

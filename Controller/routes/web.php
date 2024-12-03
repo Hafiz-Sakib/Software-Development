@@ -12,10 +12,10 @@ Route::get('/data', [ExampleController::class, 'showData']);
 Route::get('/showList', [ExampleController::class, 'showList']);
 
 
-Route::get('/form', function () {
-    return view('form');
+Route::get('/basic-info-form', function () {
+    return view('basic-info-form');
 });
-Route::post('/submit', [ExampleController::class, 'handleForm']);
+Route::post('/submit', [ExampleController::class, 'handleBasicForm']);
 
 
 

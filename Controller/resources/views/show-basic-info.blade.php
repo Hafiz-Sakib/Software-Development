@@ -35,7 +35,7 @@
 
             <!-- Back Button -->
             <div class="mt-6 text-center">
-                <a href="/" class="text-blue-600 hover:text-blue-700">Go Back to Form</a>
+                <a href="/basic-info-form" class="text-blue-600 hover:text-blue-700">Go Back to Form</a>
             </div>
         </div>
     </div>
