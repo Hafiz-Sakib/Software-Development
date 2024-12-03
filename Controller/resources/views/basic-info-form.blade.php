@@ -9,9 +9,10 @@
 <body class="bg-gray-100 font-sans">
 
     <div class="flex items-center justify-center min-h-screen">
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <div class="bg-white p-8 rounded-lg shadow-[0px_10px_800px_rgba(6,182,212,0.5)]
+     border-2 border-cyan-500 w-full max-w-md">
             <!-- Form Title -->
-            <h2 class="text-2xl font-semibold text-center text-blue-600 mb-6">Submit Your Name</h2>
+            <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Submit Your Name</h2>
 
             <!-- Form Start -->
             <form action="/submit" method="POST">
