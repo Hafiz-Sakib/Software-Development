@@ -3,93 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel Controllers Blog</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Routes Table</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS CDN -->
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
-    <div class="max-w-6xl mx-auto p-6">
-        <!-- Header -->
-        <header class="text-center py-8">
-            <h1 class="text-4xl font-bold text-indigo-600">Exploring Laravel Controllers</h1>
-            <p class="text-lg text-gray-600 mt-4">A Comprehensive Guide to Efficiently Managing Application Logic</p>
-        </header>
+<body class="bg-gray-100 font-sans">
 
-        <!-- Blog Content -->
-        <main>
-            <!-- Introduction Section -->
-            <section class="mt-8">
-                <div class="flex justify-center">
-                    <img src="http://surl.li/ttzsly" alt="Laravel Controllers" class="w-full max-w-lg rounded-md shadow-md">
-                </div>
-                <p class="mt-6 text-gray-700 text-lg">
-                    Laravel, a popular PHP framework, is celebrated for its elegance, scalability, and ease of use. One of its core components,
-                    <strong>Controllers</strong>, plays a crucial role in managing application logic and organizing code in a clean and structured manner.
-                </p>
-            </section>
+    <div class="flex items-center justify-center min-h-screen">
+        <div class="bg-white p-8 m-8 rounded-lg shadow-[0px_10px_800px_rgba(6,182,212,0.5)]
+     border-2 border-cyan-500 w-full max-w-4xl">
+            <!-- Page Title -->
+            <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Application Routes</h2>
 
-            <!-- Types of Controllers -->
-            <section class="mt-12">
-                <h2 class="text-2xl font-semibold text-indigo-500">Types of Controllers</h2>
-                <ul class="list-disc pl-5 mt-4 space-y-2 text-gray-700">
-                    <li><strong>Basic Controllers:</strong> Handle a variety of requests with multiple methods like <code>index</code>, <code>show</code>, etc.</li>
-                    <li><strong>Resource Controllers:</strong> Predefined methods for handling CRUD operations.</li>
-                    <li><strong>API Controllers:</strong> Manage JSON requests and responses for RESTful APIs.</li>
-                    <li><strong>Single Action Controllers:</strong> Focused on handling one action.</li>
-                </ul>
-                <div class="flex justify-center mt-6">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJJ65HzeNlZwc8nlCn2fw7zjJwY96INzxetA&s" alt="Types of Laravel Controllers" class="w-full max-w-lg rounded-md shadow-md">
-                </div>
-            </section>
+            <!-- Routes Table -->
+            <div class="overflow-x-auto">
+                <table class="min-w-full table-auto border-collapse border border-gray-200">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="border border-gray-300 px-6 py-3 text-left text-sm font-bold">Route Name</th>
+                            <th class="border border-gray-300 px-6 py-3 text-left text-sm font-bold">URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Add routes here -->
 
-            <!-- Creating Controllers -->
-            <section class="mt-12">
-                <h2 class="text-2xl font-semibold text-indigo-500">Creating a Controller in Laravel</h2>
-                <p class="mt-4 text-gray-700">
-                    You can create a controller using the Artisan command:
-                </p>
-                <pre class="bg-gray-800 text-white p-4 rounded-md mt-4"><code>php artisan make:controller ExampleController</code></pre>
-                <p class="mt-4 text-gray-700">
-                    Define methods like <code>index</code> and <code>show</code> to handle specific routes:
-                </p>
-                <div class="flex justify-center mt-6">
-                    <img src="https://picperf.io/https://laravelnews.s3.amazonaws.com/images/laravel-route-type-hints-featured.png?inspect=1" alt="Creating Controllers" class="w-full max-w-lg rounded-md shadow-md">
-                </div>
-            </section>
-
-            <!-- Best Practices -->
-            <section class="mt-12">
-                <h2 class="text-2xl font-semibold text-indigo-500">Best Practices for Using Controllers</h2>
-                <ul class="list-disc pl-5 mt-4 space-y-2 text-gray-700">
-                    <li><strong>Keep Controllers Slim:</strong> Offload business logic to services or helpers.</li>
-                    <li><strong>Use Dependency Injection:</strong> Leverage Laravel's DI for cleaner and testable code.</li>
-                    <li><strong>Group Middleware:</strong> Apply middleware for authentication and policies.</li>
-                    <li><strong>Follow Naming Conventions:</strong> Ensure consistency with Laravel's naming guidelines.</li>
-                    <li><strong>Standardize Responses:</strong> Use helpers for consistent API responses.</li>
-                </ul>
-                <div class="flex justify-center mt-6">
-                    <img src="https://picperf.io/https://laravelnews.s3.amazonaws.com/images/route-tips.jpg?inspect=1" alt="Best Practices" class="w-full max-w-lg rounded-md shadow-md">
-                </div>
-            </section>
-
-            <!-- Conclusion -->
-            <section class="mt-12 text-center">
-                <h2 class="text-2xl font-semibold text-indigo-500">Conclusion</h2>
-                <p class="mt-4 text-gray-700">
-                    Laravel controllers are vital for building robust, maintainable, and scalable applications. Whether handling web pages or APIs, mastering controllers enhances development productivity and organization.
-                </p>
-                <div class="flex justify-center mt-6">
-                    <img src="https://ashallendesign.ams3.cdn.digitaloceanspaces.com/public/blog/24/cleaning-up-laravel-controllers.png" alt="Conclusion" class="w-full max-w-lg rounded-md shadow-md">
-                </div>
-                <p class="mt-6 text-gray-600">
-                    Ready to build with Laravel controllers? Share your experiences and tips below!
-                </p>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="text-center py-8 mt-12 border-t border-gray-300">
-            <p class="text-gray-600">&copy; 2024 Laravel Controllers Blog. All rights reserved.</p>
-        </footer>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Home</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/" class="text-blue-500 hover:text-blue-700">Go to Home</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Controller Basics</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/controller_basics" class="text-blue-500 hover:text-blue-700">Go to Controller Basics</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Message</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/message" class="text-blue-500 hover:text-blue-700">Go to Message</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Data</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/data" class="text-blue-500 hover:text-blue-700">Go to Data</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Show List</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/showList" class="text-blue-500 hover:text-blue-700">Go to Show List</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Basic Info Form</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/basic-info-form" class="text-blue-500 hover:text-blue-700">Go to Basic Info Form</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Show Basic Info</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/show-basic-info" class="text-blue-500 hover:text-blue-700">Go to Show Basic Info</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Conditional Message</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/conditional_message" class="text-blue-500 hover:text-blue-700">Go to Conditional Message</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Numbers</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/numbers" class="text-blue-500 hover:text-blue-700">Go to Numbers</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Random Numbers</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/random" class="text-blue-500 hover:text-blue-700">Go to Random Numbers</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Color</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/color/{color}" class="text-blue-500 hover:text-blue-700">Go to Color</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Choose Color Form</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/choose-color-form" class="text-blue-500 hover:text-blue-700">Go to Choose Color Form</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Input Age</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/input-age" class="text-blue-500 hover:text-blue-700">Go to Input Age</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Check Access</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/check-access" class="text-blue-500 hover:text-blue-700">Go to Check Access</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Check Access Age</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/check-access/{age}" class="text-blue-500 hover:text-blue-700">Go to Check Access Age</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">API Simulation</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/api-simulation" class="text-blue-500 hover:text-blue-700">Go to API Simulation</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Chessboard</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/chessboard" class="text-blue-500 hover:text-blue-700">Go to Chessboard</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Enter Detailed Info</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/enter-detailed-info" class="text-blue-500 hover:text-blue-700">Go to Enter Detailed Info</a>
+                            </td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Submit Form</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm">
+                                <a href="http://127.0.0.1:8000/submit-form" class="text-blue-500 hover:text-blue-700">Go to Submit Form</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>
