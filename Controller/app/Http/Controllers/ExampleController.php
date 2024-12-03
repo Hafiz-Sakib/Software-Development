@@ -246,4 +246,27 @@ class ExampleController extends Controller
         $cols = 8;
         return view('chessboard', ['rows' => $rows, 'cols' => $cols]);
     }
+
+
+    //Validate Dynamic Form
+
+    public function enterDetailedInfoForm()
+    {
+        return view('enter-detailed-info');
+    }
+    public function validateDetailedForm(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|max:50',
+            'age' => 'required|integer|min:1|max:100',
+            'email' => 'required|email|max:100',
+            'phone' => 'required|digits:11',
+            'gender' => 'required|in:male,female,other',
+            'address' => 'required|max:255',
+            'dob' => 'required|date|before:today',
+            'country' => 'required|max:100'
+        ]);
+
+        return view('show_detailed_info_form', ['data' => $validated]);
+    }
 }

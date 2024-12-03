@@ -49,3 +49,9 @@ Route::get('/api-simulation', [ExampleController::class, 'simulateApi']);
 
 
 Route::get('/chessboard', [ExampleController::class, 'chessboard']);
+
+
+//Dynamic Form Validation
+
+Route::get('/enter-detailed-info', [ExampleController::class, 'enterDetailedInfoForm']);
+Route::post('/submit-form', [ExampleController::class, 'validateDetailedForm']);
