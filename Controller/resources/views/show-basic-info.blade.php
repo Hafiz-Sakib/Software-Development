@@ -9,28 +9,39 @@
 <body class="bg-gray-100 font-sans">
 
     <div class="flex items-center justify-center min-h-screen">
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <div class="bg-white p-8 rounded-lg shadow-[0px_10px_800px_rgba(6,182,212,0.5)]
+        border-2 border-cyan-500 w-full max-w-3xl">
             <!-- Page Title -->
-            <h2 class="text-2xl font-semibold text-center text-blue-600 mb-6">Submitted Information</h2>
+            <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Submitted Information</h2>
 
-            <!-- Displaying Submitted Data -->
-            <div class="space-y-4">
-                <div>
-                    <h3 class="text-lg font-medium text-gray-800">Name:</h3>
-                    <p class="text-gray-700">{{ $name }}</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-medium text-gray-800">Email:</h3>
-                    <p class="text-gray-700">{{ $email }}</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-medium text-gray-800">Phone:</h3>
-                    <p class="text-gray-700">{{ $phone }}</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-medium text-gray-800">Address:</h3>
-                    <p class="text-gray-700">{{ $address }}</p>
-                </div>
+            <!-- Displaying Submitted Data in Table Format -->
+            <div class="overflow-x-auto bg-white p-6 rounded-lg shadow-lg">
+                <table class="w-full table-auto border-collapse border border-gray-200">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="border border-gray-300 px-6 py-3 text-left text-sm font-bold text-gray-600">Field</th>
+                            <th class="border border-gray-300 px-6 py-3 text-left text-sm font-bold text-gray-600">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd:bg-white even:bg-gray-50 hover:bg-cyan-500">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">Name</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">{{ $name }}</td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50 hover:bg-cyan-500">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">Email</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">{{ $email }}</td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50 hover:bg-cyan-500">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">Phone</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">{{ $phone }}</td>
+                        </tr>
+                        <tr class="odd:bg-white even:bg-gray-50 hover:bg-cyan-500">
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">Address</td>
+                            <td class="border border-gray-300 px-6 py-3 text-sm font-bold text-gray-700">{{ $address }}</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <!-- Back Button -->

@@ -15,7 +15,7 @@ Route::get('/showList', [ExampleController::class, 'showList']);
 Route::get('/basic-info-form', function () {
     return view('basic-info-form');
 });
-Route::post('/submit', [ExampleController::class, 'handleBasicForm']);
+Route::post('/show-basic-info', [ExampleController::class, 'handleBasicForm']);
 
 
 

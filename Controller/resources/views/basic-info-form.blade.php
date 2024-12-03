@@ -15,7 +15,7 @@
             <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Submit Your Name</h2>
 
             <!-- Form Start -->
-            <form action="/submit" method="POST">
+            <form action="/show-basic-info" method="POST">
                 @csrf
                 <div class="mb-4">
                     <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name:</label>
