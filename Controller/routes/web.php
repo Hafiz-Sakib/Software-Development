@@ -46,3 +46,6 @@ Route::get('/check-access/{age}', [ExampleController::class, 'checkAgePage'])->n
 
 
 Route::get('/api-simulation', [ExampleController::class, 'simulateApi']);
+
+
+Route::get('/chessboard', [ExampleController::class, 'chessboard']);

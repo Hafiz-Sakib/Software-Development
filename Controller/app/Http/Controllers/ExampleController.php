@@ -236,4 +236,14 @@ class ExampleController extends Controller
 
         return view('api-simulation', ['data' => $data]);
     }
+
+
+    // ChessBoard
+
+    public function chessboard()
+    {
+        $rows = 8;
+        $cols = 8;
+        return view('chessboard', ['rows' => $rows, 'cols' => $cols]);
+    }
 }
