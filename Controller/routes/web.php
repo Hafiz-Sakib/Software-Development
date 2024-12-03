@@ -6,7 +6,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/controller_basics', function () {
+    return view('controller_basics');
+});
 Route::get('/message', [ExampleController::class, 'showMessage']);
 Route::get('/data', [ExampleController::class, 'showData']);
 Route::get('/showList', [ExampleController::class, 'showList']);
