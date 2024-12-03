@@ -105,18 +105,6 @@
                             </td>
                         </tr>
                         <tr class="odd:bg-white even:bg-gray-50">
-                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Check Access</td>
-                            <td class="border border-gray-300 px-6 py-3 text-sm">
-                                <a href="http://127.0.0.1:8000/check-access" class="text-blue-500 hover:text-blue-700">Go to Check Access</a>
-                            </td>
-                        </tr>
-                        <tr class="odd:bg-white even:bg-gray-50">
-                            <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">Check Access Age</td>
-                            <td class="border border-gray-300 px-6 py-3 text-sm">
-                                <a href="http://127.0.0.1:8000/check-access/{age}" class="text-blue-500 hover:text-blue-700">Go to Check Access Age</a>
-                            </td>
-                        </tr>
-                        <tr class="odd:bg-white even:bg-gray-50">
                             <td class="border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700">API Simulation</td>
                             <td class="border border-gray-300 px-6 py-3 text-sm">
                                 <a href="http://127.0.0.1:8000/api-simulation" class="text-blue-500 hover:text-blue-700">Go to API Simulation</a>
