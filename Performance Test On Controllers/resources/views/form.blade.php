@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-
+    <form action="/generate-fibonacci" method="POST">
+        @csrf
+        <label for="number">Enter a Number:</label>
+        <input type="number" id="number" name="number" required>
+        <button type="submit">Generate</button>
+    </form>
 </body>
 </html>

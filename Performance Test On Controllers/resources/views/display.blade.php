@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-
+    <h1>Fibonacci Series</h1>
+    <ul>
+        @foreach($numbers as $num)
+            <li>{{ $num }}</li>
+        @endforeach
+    </ul>
 </body>
 </html>
