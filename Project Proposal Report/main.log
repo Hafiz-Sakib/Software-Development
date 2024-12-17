@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  17 DEC 2024 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  17 DEC 2024 23:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -121,14 +121,38 @@ Package tocbasic Info: omitting babel extension for `lot'
 \c@table=\count269
 Class scrreprt Info: Redefining `\numberline' on input line 7428.
 \bibindent=\dimen141
+) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen144
+\ar@mcellbox=\box54
+\extrarowheight=\dimen145
+\NC@list=\toks18
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box55
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/06/02 v24.6 The Babel package
 \babel@savecnt=\count270
-\U@D=\dimen142
+\U@D=\dimen146
 \l@unhyphenated=\language79
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
@@ -160,22 +184,22 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@cnth=\count272
 \Gm@cntv=\count273
 \c@Gm@tempcnt=\count274
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
-\Gm@dimlist=\toks20
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks21
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count275
-\float@exts=\toks21
-\float@box=\box54
-\@float@everytoks=\toks22
-\@floatcapt=\box55
+\float@exts=\toks22
+\float@box=\box56
+\@float@everytoks=\toks23
+\@floatcapt=\box57
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -212,7 +236,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen151
+\@linkdim=\dimen155
 \Hy@linkcounter=\count278
 \Hy@pagecounter=\count279
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -241,15 +265,15 @@ Package hyperref Info: Bookmarks ON on input line 4424.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen152
+\XeTeXLinkMargin=\dimen156
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count282
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -281,59 +305,57 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip68
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count288
-\lst@gtempboxa=\box56
-\lst@token=\toks23
+\lst@gtempboxa=\box58
+\lst@token=\toks24
 \lst@length=\count289
-\lst@currlwidth=\dimen155
+\lst@currlwidth=\dimen159
 \lst@column=\count290
 \lst@pos=\count291
-\lst@lostspace=\dimen156
-\lst@width=\dimen157
+\lst@lostspace=\dimen160
+\lst@width=\dimen161
 \lst@newlines=\count292
 \lst@lineno=\count293
-\lst@maxwidth=\dimen158
+\lst@maxwidth=\dimen162
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
 \c@lstnumber=\count294
 \lst@skipnumbers=\count295
-\lst@framebox=\box57
+\lst@framebox=\box59
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/05/25 1.10b listings configuration
 ))
 Package: listings 2024/05/25 1.10b (Carsten Heinz)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen159
-\lightrulewidth=\dimen160
-\cmidrulewidth=\dimen161
-\belowrulesep=\dimen162
-\belowbottomsep=\dimen163
-\aboverulesep=\dimen164
-\abovetopsep=\dimen165
-\cmidrulesep=\dimen166
-\cmidrulekern=\dimen167
-\defaultaddspace=\dimen168
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
 \@cmidla=\count296
 \@cmidlb=\count297
-\@aboverulesep=\dimen169
-\@belowrulesep=\dimen170
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
 \@thisruleclass=\count298
 \@lastruleclass=\count299
-\@thisrulewidth=\dimen171
+\@thisrulewidth=\dimen175
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -345,43 +367,20 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
-\col@sep=\dimen172
-\ar@mcellbox=\box58
-\extrarowheight=\dimen173
-\NC@list=\toks24
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box59
-)
 \everycr=\toks25
 \minrowclearance=\skip69
 \rownum=\count300
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen174
-\pgfutil@tempdimb=\dimen175
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box60
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 106.
-)
-\Gin@req@height=\dimen176
-\Gin@req@width=\dimen177
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks27
@@ -548,8 +547,7 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count321
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+))) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -557,7 +555,8 @@ File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+
+(C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -872,53 +871,68 @@ Package chngcntr Info: \counterwithout already defined.
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 83.
+(hyperref)                setting the option has no effect on input line 89.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 83.
+Package hyperref Info: Option `colorlinks' set `true' on input line 89.
 (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count378
 \l__pdf_internal_box=\box110
 ) (main.aux
 
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
+LaTeX Warning: Label `fig:Requirement Identification Flowchart' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-Package scrbase Info: activating english \abstractname on input line 90.
-Package scrbase Info: activating english \partname on input line 90.
-Package scrbase Info: activating english \chaptername on input line 90.
-Package scrbase Info: activating english \appendixname on input line 90.
-Package scrbase Info: activating english \figurename on input line 90.
-Package scrbase Info: activating english \tablename on input line 90.
-Package scrbase Info: activating english \contentsname on input line 90.
-Package scrbase Info: activating english \listfigurename on input line 90.
-Package scrbase Info: activating english \listtablename on input line 90.
-Package scrbase Info: activating english \bibname on input line 90.
-Package scrbase Info: activating english \indexname on input line 90.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+Package scrbase Info: activating english \abstractname on input line 96.
+Package scrbase Info: activating english \partname on input line 96.
+Package scrbase Info: activating english \chaptername on input line 96.
+Package scrbase Info: activating english \appendixname on input line 96.
+Package scrbase Info: activating english \figurename on input line 96.
+Package scrbase Info: activating english \tablename on input line 96.
+Package scrbase Info: activating english \contentsname on input line 96.
+Package scrbase Info: activating english \listfigurename on input line 96.
+Package scrbase Info: activating english \listtablename on input line 96.
+Package scrbase Info: activating english \bibname on input line 96.
+Package scrbase Info: activating english \indexname on input line 96.
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count379
+\scratchdimen=\dimen321
+\scratchbox=\box111
+\nofMPsegments=\count380
+\nofMParguments=\count381
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count382
+\MPscratchDim=\dimen322
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
+\everyMPtoPDFconversion=\toks56
+) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -953,7 +967,7 @@ Package scrbase Info: activating english \indexname on input line 90.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 90.
+Package hyperref Info: Link coloring ON on input line 96.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -965,35 +979,16 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 90.
+(scrreprt)           before \begin{document} on input line 96.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count379
+\BKM@id=\count385
 ))
-\c@lstlisting=\count380
-Package tocbasic Info: setting babel extension for `lol' on input line 90.
+\c@lstlisting=\count386
+Package tocbasic Info: setting babel extension for `lol' on input line 96.
 \scr@dte@lstlisting@maxnumwidth=\skip88
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count381
-\scratchdimen=\dimen321
-\scratchbox=\box111
-\nofMPsegments=\count382
-\nofMParguments=\count383
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count384
-\MPscratchDim=\dimen322
-\MPnumerator=\count385
-\makeMPintoPDFobject=\count386
-\everyMPtoPDFconversion=\toks56
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
@@ -1005,13 +1000,18 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 90.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 96.
  (sec/titlepage.tex
 <./Images/PUClogo.png, id=6, 352.31625pt x 285.065pt>
 File: ./Images/PUClogo.png Graphic file (type png)
 <use ./Images/PUClogo.png>
 Package pdftex.def Info: ./Images/PUClogo.png  used on input line 6.
 (pdftex.def)             Requested size: 135.89174pt x 109.95262pt.
+
+Overfull \hbox (3.90732pt too wide) in paragraph at lines 26--39
+ [] 
+ []
+
 
 Overfull \hbox (45.29955pt too wide) in paragraph at lines 42--57
  [][][] 
@@ -1054,33 +1054,34 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 42--57
 [3])
 
 [4] (sec/methodology.tex
-<Images/flow.png, id=88, 273.02pt x 185.69376pt>
-File: Images/flow.png Graphic file (type png)
-<use Images/flow.png>
-Package pdftex.def Info: Images/flow.png  used on input line 8.
-(pdftex.def)             Requested size: 226.48395pt x 154.0436pt.
+<./Images/flow.png, id=92, 1593.955pt x 3795.17876pt>
+File: ./Images/flow.png Graphic file (type png)
+<use ./Images/flow.png>
+Package pdftex.def Info: ./Images/flow.png  used on input line 7.
+(pdftex.def)             Requested size: 226.48395pt x 539.25504pt.
 
 
-[5 <./Images/flow.png>]
-<Images/gantt.png, id=98, 1385.175pt x 229.85875pt>
-File: Images/gantt.png Graphic file (type png)
-<use Images/gantt.png>
-Package pdftex.def Info: Images/gantt.png  used on input line 69.
-(pdftex.def)             Requested size: 452.9679pt x 75.16617pt.
+[5]
+
+[6 <./Images/flow.png>]
+
+[7]
+
+[8]
+<./Images/flow2.png, id=118, 2168.1pt x 2657.93pt>
+File: ./Images/flow2.png Graphic file (type png)
+<use ./Images/flow2.png>
+Package pdftex.def Info: ./Images/flow2.png  used on input line 150.
+(pdftex.def)             Requested size: 226.48395pt x 277.65112pt.
 
 
-[6]
-File: Images/flow.png Graphic file (type png)
-<use Images/flow.png>
-Package pdftex.def Info: Images/flow.png  used on input line 87.
-(pdftex.def)             Requested size: 226.48395pt x 154.0436pt.
-)
+[9])
 
-[7 <./Images/gantt.png>] (sec/expected_output.tex)
+[10 <./Images/flow2.png>] (sec/expected_output.tex)
 
-[8] (main.bbl)
+[11] (main.bbl)
 
-[9
+[12
 
 ] (main.aux)
  ***********
@@ -1095,17 +1096,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39961 strings out of 473920
- 844218 string characters out of 5726974
- 1938908 words of memory out of 5000000
- 62143 multiletter control sequences out of 15000+600000
- 566742 words of font info for 66 fonts, out of 8000000 for 9000
+ 39965 strings out of 473920
+ 844356 string characters out of 5726974
+ 1941908 words of memory out of 5000000
+ 62145 multiletter control sequences out of 15000+600000
+ 566573 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,9n,107p,10986b,1072s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk> <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (12 pages, 226008 bytes).
+ 108i,12n,107p,10986b,1072s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk> <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (15 pages, 649383 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
