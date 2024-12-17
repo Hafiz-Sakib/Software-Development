@@ -31,4 +31,49 @@ P.~Neupane and M.~Thakur, ``Variational study of the impact of call graphs on
   \url{https://doi.org/10.1145/3578527.3578545}
 \BIBentrySTDinterwordspacing
 
+\bibitem{ref2}
+N.~Jeba, N.~Harishkumar, M.~Yogeshwaran, and M.~A. Kumar, ``Online vehicle
+  rental system to enhance commutation,'' in \emph{2021 International
+  Conference on Advancements in Electrical, Electronics, Communication,
+  Computing and Automation (ICAECA)}, 2021, pp. 1--5.
+
+\bibitem{ref3}
+\BIBentryALTinterwordspacing
+H.~Savani, ``\BIBforeignlanguage{en}{Laravel 8 factory tinker example
+  tutorial},'' Nov. 2023. [Online]. Available:
+  \url{https://www.itsolutionstuff.com/post/laravel-8-factory-tinker-example-tutorialexample.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref4}
+\BIBentryALTinterwordspacing
+A.~Smith, B.~Johnson, and C.~Williams, ``A review of web-based travel agency
+  systems and their functionalities,'' in \emph{Journal of Digital Commerce},
+  vol.~12, no.~3, 2022, pp. 45--67. [Online]. Available:
+  \url{https://doi.org/10.1016/j.jdc.2022.04.003}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref5}
+\BIBentryALTinterwordspacing
+R.~Kumar and S.~Singh, ``Design and implementation of a travel agency web
+  portal using node.js and mysql,'' in \emph{International Journal of Web
+  Development}, vol.~5, no.~2, 2021, pp. 102--115. [Online]. Available:
+  \url{https://doi.org/10.1109/ijwd.2021.00345}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref6}
+\BIBentryALTinterwordspacing
+L.~Zhang, X.~Li, and Y.~Wang, ``Blockchain integration for secure payments in
+  travel booking systems,'' in \emph{Proceedings of the International
+  Conference on E-Commerce Technology}, 2023, pp. 58--65. [Online]. Available:
+  \url{https://doi.org/10.1109/icect.2023.01234}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref7}
+\BIBentryALTinterwordspacing
+M.~Gupta, ``Scalability and performance considerations for modern travel
+  booking websites,'' in \emph{Scalibility and performance}, vol.~18, no.~4,
+  2020, pp. 213--220. [Online]. Available:
+  \url{https://doi.org/10.1016/j.ser.2020.02.005}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

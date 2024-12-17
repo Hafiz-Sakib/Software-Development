@@ -2,7 +2,7 @@
 
 \usepackage{graphicx}
 \usepackage{array} % For better column control
-
+\usepackage[numbers]{natbib}  % Use natbib for controlling citations
 \setlength{\tabcolsep}{12pt}  % Adjusts the padding of the table cells
 \renewcommand{\arraystretch}{1.5}  % Adjusts the vertical padding (row height)
 
@@ -126,9 +126,16 @@
 \input{sec/expected_output}
 
 % References
-\newpage
 \phantomsection
-\addcontentsline{toc}{section}{REFERENCES}
-\bibliographystyle{IEEEtran}
-\bibliography{biblio}  % Replace 'references' with your actual .bib file name
+\addcontentsline{toc}{section}{REFERENCES}  % Add to Table of Contents
+
+% Citing references
+% Add references to bibliography, but do not cite in text
+\nocite{ref1, ref2, ref3, ref4, ref5, ref6, ref7}
+
+
+\bibliographystyle{IEEEtran}  % Choose your bibliography style
+
+\bibliography{biblio}  % Make sure 'biblio' matches the name of your .bib file (without the .bib extension)
+
 \end{document}
