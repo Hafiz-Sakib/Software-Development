@@ -1,0 +1,128 @@
+\documentclass[12pt]{scrreprt}  % Use scrreprt class for reports
+
+% Encoding and languages
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% Geometry and page setup
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{float}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+
+% Better handling of URLs and hyperlinks
+\usepackage{hyperref}
+
+% Code listings
+\usepackage{listings}
+
+% Table management
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor}
+
+% Flowchart and diagrams
+\usepackage{tikz} 
+\usetikzlibrary{shapes, arrows.meta, positioning, backgrounds}
+
+% For easier formatting of captions
+\usepackage[justification=centering]{caption}
+
+% For defining acronyms
+\usepackage[acronym]{glossaries}
+
+% For rotating tables or figures
+\usepackage{rotating}
+
+% SI units handling
+\usepackage{siunitx}
+
+% Array handling
+\usepackage{array}
+
+% Fancy counters
+\usepackage{chngcntr}
+
+% Define styles for different node types
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!10]
+\tikzstyle{database} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{auth} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{ui} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=yellow!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+% For stickman (used in diagrams)
+\tikzset{
+    stickman/.pic={
+        % Head
+        \draw[fill=gray] (0,0.6) circle (0.3cm);
+        % Body
+        \draw[line width=0.5mm] (0,0.3) -- (0,-0.6);
+        % Arms
+        \draw[line width=0.5mm] (-0.4,0.3) -- (0.4,0.3);
+        % Legs
+        \draw[line width=0.5mm] (0,-0.6) -- (-0.4,-1.2);
+        \draw[line width=0.5mm] (0,-0.6) -- (0.4,-1.2);
+    }
+}
+
+\hypersetup{
+    bookmarks=true,    % show bookmarks bar
+    pdftitle={Software Requirement Specification}, % title
+    pdfauthor={Jean-Philippe Eisenbarth},         % author
+    pdfsubject={TeX and LaTeX},                    % subject of the document
+    pdfkeywords={TeX, LaTeX, graphics, images},    % list of keywords
+    colorlinks=true,                               % colored links
+    linkcolor=blue,                                % color of internal links
+    citecolor=black,                               % color of links to bibliography
+    filecolor=black,                               % color of file links
+    urlcolor=purple,                               % color of external links
+    linktoc=page                                   % only page is linked
+}
+
+
+\title{Project proposal format For B.Sc. CSIT/BIT, TU, IOST}
+\author{Prakash Neupane}
+\date{\today}
+
+\begin{document}
+\pagenumbering{roman} % Roman page numbers
+
+\input{sec/titlepage} % Ensure this file exists and is correctly formatted
+
+% Table of contents
+\newpage
+{
+  \setlength{\parskip}{0em}
+  \renewcommand\contentsname{TABLE OF CONTENTS} % This will change heading text
+  \tableofcontents \addcontentsline{toc}{section}{TABLE OF CONTENTS}
+}
+
+% List of figures - if any
+\newpage
+\listoffigures 
+\addcontentsline{toc}{section}{LIST OF FIGURES}
+
+% List of tables - if any
+\newpage
+\listoftables 
+\addcontentsline{toc}{section}{LIST OF TABLES}
+\pagenumbering{arabic}
+
+\input{sec/introduction} % Ensure this file exists and is correctly formatted
+\input{sec/problem_statement}
+\input{sec/objectives}
+\newpage
+\input{sec/methodology}
+\newpage
+\input{sec/expected_output}
+
+% References
+\newpage
+\phantomsection
+\addcontentsline{toc}{section}{REFERENCES}
+\bibliographystyle{IEEEtran}
+\bibliography{biblio}  % Replace 'references' with your actual .bib file name
+\end{document}
