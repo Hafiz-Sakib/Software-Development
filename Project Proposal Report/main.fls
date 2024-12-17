@@ -464,6 +464,7 @@ INPUT .\sec\objectives.tex
 INPUT .\sec\objectives.tex
 INPUT .\sec\objectives.tex
 INPUT sec\objectives.tex
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\sec\methodology.tex
 INPUT .\sec\methodology.tex
 INPUT .\sec\methodology.tex
@@ -504,6 +505,8 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1200.pk
 INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1200.pk
+INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
