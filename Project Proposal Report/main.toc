@@ -1,0 +1,25 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{TITLE PAGE}{i}{Doc-Start}%
+\contentsline {section}{TABLE OF CONTENTS}{ii}{chapter*.1}%
+\contentsline {section}{LIST OF FIGURES}{iii}{chapter*.2}%
+\contentsline {section}{LIST OF TABLES}{1}{chapter*.3}%
+\contentsline {section}{\numberline {0.1}Introduction}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Problem Statement}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Objectives}{2}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Methodology}{5}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Requirement Identification}{6}{subsection.0.4.1}%
+\contentsline {subsubsection}{\nonumberline Requirement Analysis}{6}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {0.4.2}Functional Requirements}{7}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {0.4.3}Non-Functional Requirements}{8}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {0.4.4}Feasibility Study}{8}{subsection.0.4.4}%
+\contentsline {subsubsection}{\nonumberline Technical Feasibility}{8}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Operational Feasibility}{8}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Economic Feasibility}{8}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Schedule}{9}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {0.4.5}High-Level Design of System}{9}{subsection.0.4.5}%
+\contentsline {subsubsection}{\nonumberline Methodology of the Proposed System}{9}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Flow Charts/Working Mechanism of the Proposed System}{10}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Description of Algorithms}{10}{subsubsection*.25}%
+\contentsline {section}{\numberline {0.5}Expected Output}{11}{section.0.5}%
+\contentsline {section}{REFERENCES}{11}{section*.26}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
