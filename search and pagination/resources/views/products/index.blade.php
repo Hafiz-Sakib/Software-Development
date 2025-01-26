@@ -41,8 +41,8 @@
                     </tr>
                 </thead>
                 <tbody class="divide-y divide-gray-200">
-                    @foreach ($products as $index => $product)
-                        <tr class="{{ $index % 2 === 0 ? 'bg-teal-100' : 'bg-teal-200' }} hover:bg-teal-300 transition duration-150 ease-in-out">
+                    @foreach ($products as $product)
+                        <tr class="{{ $product->id % 2 === 0 ? 'bg-teal-100' : 'bg-teal-200' }} hover:bg-teal-300 transition duration-150 ease-in-out">
                             <td class="px-3 py-2 sm:px-4 sm:py-3 text-sm text-gray-700">{{ $product->id }}</td>
                             <td class="px-3 py-2 sm:px-4 sm:py-3 text-sm text-gray-900 font-medium">{{ $product->name }}</td>
                             <td class="px-3 py-2 sm:px-4 sm:py-3 text-sm text-gray-900">${{ number_format($product->price, 2) }}</td>
