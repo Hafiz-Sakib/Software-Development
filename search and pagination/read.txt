@@ -1,0 +1,4 @@
+php artisan db:seed --class=ProductSeeder
+
+
+run this to add the data on the database
