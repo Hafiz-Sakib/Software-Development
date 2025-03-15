@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+
+\title{AI-Controlled Smart Traffic Management System}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Logical Analysis Using First-Order Logic (FOL)}
+
+\subsection*{Predicates}
+\begin{itemize}
+    \item $\text{RoadClosed}(R)$: Road $R$ is closed.
+    \item $\text{SignalFunctional}(T)$: Traffic signal $T$ is functional.
+    \item $\text{IntersectionCongested}(I)$: Intersection $I$ is congested.
+    \item $\text{EmergencyPathClear}(E)$: Emergency vehicle $E$ has a clear path.
+    \item $\text{AlternativeRouteExists}(R_1, R_2)$: There exists an alternative route $R_2$ for road $R_1$.
+    \item $\text{ManualControlRequired}(I)$: Manual traffic control is required at intersection $I$.
+\end{itemize}
+
+\subsection*{Rules}
+\begin{enumerate}
+    \item $\forall R, T, I \ (\text{RoadClosed}(R) \land \text{Controls}(T, R) \implies \neg \text{SignalFunctional}(T))$
+    \item $\forall R, R_2 \ (\text{RoadClosed}(R) \land \text{AlternativeRouteExists}(R, R_2) \implies \text{Reroute}(R, R_2))$
+    \item $\forall T, I \ (\neg \text{SignalFunctional}(T) \land \text{Controls}(T, I) \implies \text{IntersectionCongested}(I))$
+    \item $\forall I, R \ (\text{IntersectionCongested}(I) \land \text{Connected}(R, I) \implies \text{Congested}(R))$
+    \item $\forall E, I \ (\text{EmergencyPathClear}(E) \implies \neg \text{IntersectionCongested}(I))$
+\end{enumerate}
+
+\subsection*{Incident Conditions}
+\begin{itemize}
+    \item $\text{RoadClosed}(R1)$
+    \item $\text{Controls}(T1, R1)$
+    \item $\text{Connected}(R1, I1)$
+    \item $\text{AlternativeRouteExists}(R1, R2)$
+    \item $\text{EmergencyPathClear}(E1)$
+\end{itemize}
+
+\section*{Step-by-Step Explanation of AI’s Decision-Making Process}
+
+\begin{enumerate}
+    \item \textbf{Determine Signal Functionality}: From Rule 1, since $\text{RoadClosed}(R1)$ and $\text{Controls}(T1, R1)$, it follows that $\neg \text{SignalFunctional}(T1)$.
+    \item \textbf{Determine Intersection Congestion}: From Rule 3, since $\neg \text{SignalFunctional}(T1)$ and $\text{Controls}(T1, I1)$, it follows that $\text{IntersectionCongested}(I1)$.
+    \item \textbf{Ensure Emergency Vehicle Path}: From Rule 5, to ensure $\text{EmergencyPathClear}(E1)$, we must prevent $\text{IntersectionCongested}(I1)$. Using $R2$, congestion at $I1$ can be reduced.
+    \item \textbf{Determine Need for Manual Control}: From Rule 2, since $\text{RoadClosed}(R1)$ and $\text{AlternativeRouteExists}(R1, R2)$, vehicles can be rerouted through $R2$. Manual control is only required if rerouting fails.
+    \item \textbf{Impact of Alternative Route}: The presence of $R2$ ensures efficient rerouting, reducing congestion and guaranteeing $E1$'s timely arrival.
+\end{enumerate}
+
+\section*{Answers to Objectives}
+
+\begin{enumerate}
+    \item \textbf{Will traffic signal $T1$ remain functional or fail?} $T1$ will fail because $R1$ is closed, and $T1$ controls $R1$.
+    \item \textbf{Will Intersection $I1$ become congested?} Yes, $I1$ will become congested due to the failure of $T1$.
+    \item \textbf{Can emergency vehicle $E1$ reach the hospital in time?} Yes, $E1$ can reach the hospital in time if traffic is rerouted through $R2$.
+    \item \textbf{Will vehicles be effectively rerouted, or is manual traffic control required?} Vehicles will be effectively rerouted through $R2$. Manual control is only required if rerouting fails.
+    \item \textbf{How does the presence or absence of an alternative route impact the overall outcome?} The presence of $R2$ ensures efficient rerouting, reduces congestion, and guarantees $E1$'s timely arrival. Without $R2$, manual control would be necessary, leading to delays.
+\end{enumerate}
+
+\end{document}

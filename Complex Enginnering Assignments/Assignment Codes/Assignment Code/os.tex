@@ -1,0 +1,81 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+
+\pagestyle{plain} % Use plain page style instead of fancy
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+\title{Memory Management System Design for High-Performance Computing}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+This report presents a memory management system designed for a high-performance computing environment, addressing efficient memory allocation, fragmentation management, access optimization, and scalability. The system tackles challenges in memory allocation, fragmentation, and access latency to ensure optimal performance under heavy load.
+
+\section{Memory Management System Design}
+
+\subsection{Memory Allocation}
+To achieve efficient memory allocation with minimal fragmentation, a hybrid approach is proposed:
+\begin{itemize}
+    \item \textbf{Paging}: Main memory is divided into fixed-size pages (e.g., 4 KB). Processes are allocated memory in page units, eliminating external fragmentation. Internal fragmentation is limited to the last page.
+    \item \textbf{Buddy System}: Free memory is managed in power-of-2-sized blocks (e.g., 4 KB, 8 KB). Allocation uses the smallest suitable block, splitting larger ones as needed. Deallocation merges adjacent free blocks.
+    \item \textbf{Implementation}: A free list per block size and a bitmap track allocations, ensuring $O(\log n)$ allocation time and dynamic resizing support.
+\end{itemize}
+
+\subsection{Fragmentation Management}
+\begin{itemize}
+    \item \textbf{Internal Fragmentation}: Paging reduces waste with small page sizes. Dynamic page size adjustment (e.g., 4 KB to 16 KB) can further optimize based on process needs.
+    \item \textbf{External Fragmentation}: The buddy system merges freed blocks. \textbf{Compaction} consolidates memory as a background process during low load. \textbf{Segmentation} supports large processes, mapped to pages.
+    \item \textbf{Mechanism}: Hybrid paging-buddy with periodic compaction balances utilization and performance.
+\end{itemize}
+
+\subsection{Memory Access Optimization}
+To minimize access latency:
+\begin{itemize}
+    \item \textbf{Caching}: A multi-level cache (L1, L2, L3) with prefetching exploits locality.
+    \item \textbf{Memory Hierarchy}: A \textbf{TLB} caches virtual-to-physical translations, reducing latency.
+    \item \textbf{Locality}: Sequential page assignments and an LRU page replacement policy ensure frequently used pages remain accessible.
+\end{itemize}
+
+\subsection{Scalability and Performance}
+\begin{itemize}
+    \item \textbf{Scalability}: Distributed free lists with lock-free data structures support concurrent allocation.
+    \item \textbf{Performance}: \textbf{Memory pools} for small objects and \textbf{NUMA-aware allocation} optimize under load.
+    \item \textbf{Concurrency}: Per-thread caches and atomic operations enable multi-threaded access.
+\end{itemize}
+
+\section{Investigation}
+\begin{itemize}
+    \item \textbf{Scenarios}: Fragmentation occurs with rapid small allocations (external) or oversized requests (internal). Latency spikes with TLB misses or cache thrashing.
+    \item \textbf{Patterns}: Profiling tools analyze process size and access frequency to tune parameters.
+    \item \textbf{Architecture}: Assumes a multi-core, NUMA system with deep memory hierarchy.
+\end{itemize}
+
+\section{Evaluation}
+The hybrid paging-buddy system with compaction, caching, and NUMA-awareness justifies the design. Trade-offs include compaction overhead vs. utilization and small pages vs. TLB pressure.
+
+\section{Complex Problem-Solving Questions}
+\begin{enumerate}[label=\alph*.]
+    \item \textbf{In-depth Engineering Knowledge?} Yes, requires OS design, hardware-software interaction, and concurrency expertise.
+    \item \textbf{Wide-ranging Issues?} Yes, balances fragmentation vs. speed, latency vs. throughput, and simplicity vs. scalability.
+    \item \textbf{Abstract Thinking?} Builds on known techniques but requires creative integration and tuning.
+    \item \textbf{Infrequent Issues?} Partially; high-performance NUMA optimization is specialized.
+    \item \textbf{Standards Adherence?} Yes, aligns with POSIX and hardware specifications.
+    \item \textbf{Conflicting Stakeholders?} Potentially; developers prioritize simplicity, architects demand performance.
+    \item \textbf{Interdependence?} Yes, allocation impacts fragmentation, latency, and scalability.
+\end{enumerate}
+
+\section{Conclusion}
+The proposed system achieves efficient allocation, minimizes fragmentation, optimizes access, and scales effectively, meeting all objectives for a high-performance computing environment.
+
+\end{document}
