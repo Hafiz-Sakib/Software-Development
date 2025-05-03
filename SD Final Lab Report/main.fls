@@ -1,6 +1,6 @@
-PWD c:\PU Projects\PUC Courses\6th Semester\Software Development\SD Final Lab Report
+PWD C:\PU Projects\PUC Courses\6th Semester\Software Development\SD Final Lab Report
 INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\PU Projects\PUC Courses\6th Semester\Software Development\SD Final Lab Report\main.tex
+INPUT main.tex
 OUTPUT main.log
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -240,11 +240,11 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
-INPUT .\sec\titlepage.tex
-INPUT .\sec\titlepage.tex
-INPUT .\sec\titlepage.tex
-INPUT .\sec\titlepage.tex
-INPUT sec\titlepage.tex
+INPUT .\chapters\titlepage.tex
+INPUT .\chapters\titlepage.tex
+INPUT .\chapters\titlepage.tex
+INPUT .\chapters\titlepage.tex
+INPUT chapters\titlepage.tex
 INPUT .\Images\PUClogo.png
 INPUT .\Images\PUClogo.png
 INPUT .\Images\PUClogo.png
