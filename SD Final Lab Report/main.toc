@@ -1,4 +1,0 @@
-\contentsline {section}{TITLE PAGE}{i}{Doc-Start}%
-\contentsline {section}{TABLE OF CONTENTS}{ii}{Doc-Start}%
-\contentsline {section}{LIST OF FIGURES}{iii}{Doc-Start}%
-\contentsline {section}{LIST OF TABLES}{1}{Doc-Start}%
