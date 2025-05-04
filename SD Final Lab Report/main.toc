@@ -1,0 +1,92 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{List of Figures}{\EnsureStandardFontEncoding {iv}}{Doc-Start}%
+\contentsline {chapter}{List of Figures}{\EnsureStandardFontEncoding {iv}}{section*.1}%
+\contentsline {chapter}{List of Tables}{\EnsureStandardFontEncoding {vi}}{section*.1}%
+\contentsline {chapter}{List of Tables}{\EnsureStandardFontEncoding {vi}}{section*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivation}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Application}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Summary}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Background Study}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Software Design Pattern}{5}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Summary}{5}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Methodology}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Methodology}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Planning}{6}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Design}{6}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Implementation}{7}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Testing}{7}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Deployment}{7}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Future Enhancements}{7}{subsection.3.1.6}%
+\contentsline {chapter}{\numberline {4}Diagram}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diagrams}{8}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}UML (Unified Modeling Language)}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Activity Diagram}{9}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Description}{9}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Usage}{10}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}Key Elements}{10}{subsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.1.3}Sequence Diagram}{15}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Description}{15}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Usage}{16}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Key Elements}{16}{subsubsection.4.1.3.3}%
+\contentsline {subsection}{\numberline {4.1.4}Use Case Diagram}{20}{subsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}Description}{20}{subsubsection.4.1.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.4.2}Usage}{20}{subsubsection.4.1.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.4.3}Key Elements}{21}{subsubsection.4.1.4.3}%
+\contentsline {section}{\numberline {4.2}ER Diagram}{24}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Implementation Details}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Login Component Implementation}{25}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}State Management}{25}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Authentication Methods}{26}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Error Handling}{26}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Security Considerations}{27}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}User Registration Implementation}{27}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}State Management}{27}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Registration Methods}{28}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Error Handling}{29}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Security Features}{29}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Data Flow}{29}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}API Routes Configuration}{29}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Auth Controller Implementation}{32}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Key Methods}{32}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Technical Features}{34}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Package Controller Implementation}{34}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Core Methods}{34}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Validation Rules}{36}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Error Handling}{36}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Data Processing}{36}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}API Responses}{36}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}Booking Management System}{36}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Core Processes}{37}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Key Features}{39}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Technical Implementation}{39}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}Booking Controller Implementation}{39}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Core Methods}{39}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Technical Specifications}{40}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Database Relations}{41}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Frontend Booking Implementation}{41}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}State Management}{41}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}API Integration}{43}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Error Handling}{43}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Component Behavior}{43}{subsection.5.8.4}%
+\contentsline {chapter}{\numberline {6}Testing}{44}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Testing}{44}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Unit Testing}{45}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Integration Testing}{45}{section.6.3}%
+\contentsline {section}{\numberline {6.4}System Testing}{45}{section.6.4}%
+\contentsline {section}{\numberline {6.5}User Acceptance Testing}{46}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Test Cases and Results}{46}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Bug Tracking and Resolution}{49}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Performance and Load Testing}{50}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Security Testing}{50}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Result}{50}{section.6.10}%
+\contentsline {chapter}{\numberline {7}Challenges and Solutions}{59}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Challenges and Solutions}{59}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Work}{61}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Works}{62}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conclusion}{62}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Future Work}{63}{section.8.2}%
+\contentsline {chapter}{Bibliography}{64}{section.8.2}%

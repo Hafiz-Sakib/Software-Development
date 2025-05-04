@@ -1,0 +1,46 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces UML Diagram}}{9}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Activity Diagram for Odyssey Travel Agency Software}}{11}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Activity Diagram Of Login and Registra tion System}}{12}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Package Selection Activity Diagram}}{13}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Payment System Activity Diagram}}{14}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Admin CRUD Operation Activity Diagram}}{15}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sequence Diagram of Odyssey Travel Agency Software}}{17}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence Diagram Of Login and Registra tion System}}{18}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Package Selection Sequence Diagram}}{18}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Payment System Sequence Diagram}}{19}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Admin CRUD Operation Sequence Diagram}}{20}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Use Case Diagram for Odyssey Travel Agency Software}}{21}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Use Case Diagram Of Login and Registra tion System}}{22}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Package Selection Use Case Diagram}}{23}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Payment System Use Case Diagram}}{23}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Admin CRUD Operation Use Case Diagram}}{24}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces ER Diagram for Odyssey Travel Agency Software}}{24}{figure.4.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Login Component Code Structure}}{26}{figure.caption.3}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces User Registration Code Structure}}{28}{figure.caption.4}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces API Routes Configuration Code Structure}}{31}{figure.caption.5}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Auth Controller Code Structure}}{33}{figure.caption.6}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Package Controller Code Structure}}{35}{figure.caption.7}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Booking System Code Structure}}{38}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Booking Controller Code Structure}}{40}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Booking Frontend State Management and API Integration Code Structure}}{42}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Homepage}}{51}{figure.caption.11}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Login Page}}{52}{figure.caption.12}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Tour Plan Page}}{53}{figure.caption.13}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Package Details Page}}{54}{figure.caption.14}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Select Flight Page}}{54}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Select Hotel Page}}{55}{figure.caption.16}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Select Tour Guide Page}}{55}{figure.caption.17}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Payment Checkout Page}}{56}{figure.caption.18}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Order Booking Confirmation Page}}{56}{figure.caption.19}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Add Package (Admin)}}{57}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces List of Packages (Admin)}}{57}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces List of Bookings (Admin)}}{58}{figure.caption.22}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

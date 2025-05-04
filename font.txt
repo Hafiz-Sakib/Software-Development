@@ -1,0 +1,4 @@
+The fonts used in the modified LaTeX document are:
+
+Latin Modern: Provided by the lmodern package, used as a scalable replacement for the default Computer Modern font, ensuring high-quality rendering.
+Palatino: Provided by the mathpazo package, used for both text and math, giving a polished and professional appearance.

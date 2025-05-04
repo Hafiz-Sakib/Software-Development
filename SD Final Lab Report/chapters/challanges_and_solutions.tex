@@ -1,0 +1,82 @@
+\section{Challenges and Solutions}
+During the development of the Odyssey Travel Agency Software, numerous challenges were encountered, from booking logic issues to UI responsiveness inconsistencies. These challenges were tackled systematically through debugging, user testing, and design optimization. Below is a summary of the primary challenges and their corresponding solutions:
+
+\begin{enumerate}
+    \item \textbf{Date Validation During Booking}
+    
+    \textbf{Challenge:} Users were unable to select the current date while booking a package, which caused inconvenience for last-minute travelers.
+
+    \textbf{Solution:} The date validation logic was updated to accept the current date as a valid input. This allowed users to make same-day bookings seamlessly.
+
+    \item \textbf{Missing Hotel Selection Validation}
+    
+    \textbf{Challenge:} The system allowed users to proceed with bookings without selecting a hotel, leading to incomplete booking records.
+
+    \textbf{Solution:} A required field validation was added to ensure users select a hotel before proceeding with the booking process.
+
+    \item \textbf{Session Timeout Not Triggering Properly}
+    
+    \textbf{Challenge:} When users remained inactive for a long time, the session did not time out automatically, potentially causing security risks.
+
+    \textbf{Solution:} An inactivity tracker was implemented that triggers session timeout after 30 minutes of inactivity, redirecting users to the login page.
+
+    \item \textbf{Incorrect Quantity Selection in Booking}
+    
+    \textbf{Challenge:} Users could input a booking quantity below zero due to a bug in the input validation logic.
+
+    \textbf{Solution:} JavaScript checks were added to disable decrement buttons at zero and enforce non-negative quantity values.
+
+    \item \textbf{Payment Page Not Reloading After Transaction}
+    
+    \textbf{Challenge:} After clicking "Pay Now", the page remained static, leaving users uncertain whether the transaction was successful.
+
+    \textbf{Solution:} A confirmation modal and an automatic page reload were introduced upon successful payment, ensuring feedback was immediate and clear.
+
+    \item \textbf{Static Search Results on Homepage}
+    
+    \textbf{Challenge:} Search results were not updating dynamically when users entered new queries in the search bar.
+
+    \textbf{Solution:} AJAX-based dynamic search functionality was implemented to ensure search results update instantly as users type.
+
+    \item \textbf{Admin Dashboard Lacking Monthly Metrics}
+    
+    \textbf{Challenge:} The admin dashboard did not display monthly revenue or booking statistics, limiting oversight.
+
+    \textbf{Solution:} Monthly analytics queries were written and integrated into the dashboard, displaying total bookings and revenue in real-time.
+
+    \item \textbf{Forgot Password Flow Not Functioning Properly}
+    
+    \textbf{Challenge:} Users were not receiving password reset links due to misconfigured email settings.
+
+    \textbf{Solution:} The mail service was properly configured, and the reset email template was improved to ensure delivery and clarity.
+
+    \item \textbf{Unauthorized Access to Admin Pages}
+    
+    \textbf{Challenge:} Logged-out users could manually enter admin URLs in the browser and access restricted pages.
+
+    \textbf{Solution:} Route guards were implemented to restrict access to admin routes, redirecting unauthorized users to the login page.
+
+    \item \textbf{User Role Update Not Persisting}
+    
+    \textbf{Challenge:} Changes to user roles in the admin panel were not being saved due to database update issues.
+
+    \textbf{Solution:} Backend logic was corrected to ensure that user role updates are committed successfully to the database.
+
+\end{enumerate}
+
+\noindent In conclusion, the development of the Odyssey Travel Agency Software presented diverse technical and functional challenges. Each issue was addressed with targeted solutions involving backend logic enhancements, frontend improvements, and stronger validation mechanisms. These resolutions not only improved immediate functionality but also strengthened the software's reliability and user experience for future expansion.
+
+
+\section{Future Work}
+While the current version of the \textbf{Odyssey Travel Agency Software} successfully delivers core functionalities such as package booking, user registration, payment processing, and administrative control, several enhancements are planned for future development to further elevate user satisfaction and operational efficiency.
+
+Firstly, integrating \textbf{AI-powered travel recommendations} can significantly personalize the user experience by suggesting packages based on previous bookings, preferences, and travel history. Additionally, implementing \textbf{real-time chat support} or a chatbot system will allow users to resolve queries instantly, improving overall engagement and trust.
+
+Secondly, we aim to introduce \textbf{multi-language support} to cater to a broader, global audience. This will involve localizing both frontend content and backend validation messages. A \textbf{mobile application} version is also under consideration, enabling users to book and manage trips conveniently from their smartphones.
+
+Moreover, extending the software to support \textbf{affiliate partnerships with airlines, hotels, and tour operators} could open new business opportunities and enrich the travel package database. Integrating advanced \textbf{data analytics} for the admin dashboard will allow travel agencies to gain deeper insights into customer behavior, seasonal trends, and sales performance.
+
+Finally, emphasis will be placed on improving \textbf{system scalability and security}. This includes optimizing the backend architecture for handling larger traffic and implementing more robust security features like two-factor authentication and GDPR-compliant data handling.
+
+These enhancements will ensure that the Odyssey platform remains competitive, user-focused, and ready to adapt to evolving technological and market demands.
+

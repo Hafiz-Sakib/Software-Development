@@ -1,0 +1,117 @@
+\documentclass[12pt, a4paper]{report}
+\setlength{\headheight}{14.5pt}
+\usepackage{thesis} % Ensure thesis.sty exists or remove if unnecessary
+
+% Include necessary libraries
+
+\setlength{\tabcolsep}{4pt}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{titling}
+\usepackage{comment}
+\usepackage{subfig}
+\usepackage{lipsum}
+\usepackage[tableposition=top]{caption}
+\usepackage[Glenn]{fncychap}
+\usepackage{hyperref}
+\hypersetup{
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+% Custom commands
+\newcommand{\dept}{Computer Science and Engineering}
+\newcommand{\department}{Department of Computer Science and Engineering}
+\newcommand{\university}{Premier University, Chittagong}
+
+\newcommand{\chairmanName}{Dr. Shahid Md. Asif Iqbal}
+\newcommand{\chairmanDesignation}{Professor and Chairman}
+
+\newcommand{\supervisorName}{Avisheak Das}
+\newcommand{\supervisorDesignation}{Lecturer}
+
+% Update with actual author names and IDs
+\newcommand{\firstAuthorName}{Mohammad Hafizur Rahman Sakib}
+\newcommand{\firstAuthorId}{0222210005101118}
+\newcommand{\secondAuthorName}{Arnab Shikder}
+\newcommand{\secondAuthorId}{0222210005101098}
+\newcommand{\thirdAuthorName}{Mohammad Asmual Hoque Yousha}
+\newcommand{\thirdAuthorId}{0222210005101121}
+
+\newcommand{\projectTitle}{LeafGuard: Deep Learning-Based Detection of Cassava Plant Diseases}
+
+\begin{document}
+
+\pagenumbering{roman}
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+
+\clearpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+\clearpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+% Abstract
+\clearpage
+\input{pages/abstract}
+
+% Switch to arabic numbering for main chapters
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Chapters
+\clearpage
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\clearpage
+\chapter{Literature Review} \label{ch: reviews}
+\input{chapters/literature_review}
+
+\clearpage
+\chapter{Methodology} \label{ch: methodology}
+\input{chapters/methodology}
+
+\clearpage
+\chapter{Diagram} \label{ch: diagram}
+\input{chapters/diagram}
+
+\clearpage
+\chapter{Implementation Details} \label{ch: implementation}
+\input{chapters/implementation_details}
+
+\clearpage
+\chapter{Testing} \label{ch: testing}
+\input{chapters/testing}
+
+\clearpage
+\chapter{Challenges and Solutions} \label{ch: challanges}
+\input{chapters/challanges_and_solutions}
+
+\clearpage
+\chapter{Conclusion and Future Works} \label{ch: conclusion}
+\input{chapters/conclusion}
+
+
+% Bibliography
+\clearpage
+\renewcommand\bibname{References}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\nocite{*}
+
+\end{document}
