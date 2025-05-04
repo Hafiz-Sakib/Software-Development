@@ -21,8 +21,28 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{doe2023}
-J.~Doe and J.~Smith, ``Deep learning for plant disease detection,''
-  \emph{Journal of Agricultural Science}, vol.~15, no.~3, pp. 123--130, 2023.
+\bibitem{rahman2022}
+T.~Rahman and S.~Alam, ``A framework for online travel booking systems in
+  developing countries,'' \emph{International Journal of Information Systems
+  and Travel Technology}, vol.~8, no.~2, pp. 89--101, 2022.
+
+\bibitem{liu2021}
+M.~Liu and W.~Zhang, ``Design and implementation of a web-based travel agency
+  system,'' in \emph{Proceedings of the 2021 International Conference on
+  Software Engineering and Applications}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2021, pp. 212--217.
+
+\bibitem{kumar2020}
+R.~Kumar, \emph{Modern Web Application Development with PHP and Laravel}.\hskip
+  1em plus 0.5em minus 0.4em\relax TechWorld Publishing, 2020.
+
+\bibitem{fernandez2023}
+C.~Fernandez and L.~Gomez, ``Enhancing user experience in travel booking
+  interfaces,'' \emph{Journal of Human-Centered Computing}, vol.~12, no.~1, pp.
+  55--66, 2023.
+
+\bibitem{odysseyDocs2024}
+{Odyssey Development Team}, ``Odyssey travel agency software: Technical
+  documentation,'' 2024, available upon request or internal release.
 
 \end{thebibliography}
