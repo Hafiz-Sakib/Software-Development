@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  4 MAY 2025 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  4 MAY 2025 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1657,21 +1657,23 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+)
+
+[1
+
+{C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
 
-[1
-
-{C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (main.lof)
+[2] (main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
-[2
+[3
 
 ] (main.lot)
 \tf@lot=\write8
@@ -1679,11 +1681,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-[3
+[4
 
 ] (pages/abstract.tex)
 
-[4
+[5
 
 ]
 Chapter 1.
@@ -1714,9 +1716,275 @@ Chapter 2.
 
 ])
 
-[5] (main.bbl)
+[5]
+Chapter 3.
+(chapters/methodology.tex
 
 [6
+
+
+])
+
+[7]
+Chapter 4.
+(chapters/diagram.tex
+<./figures/UML Diagram/uml2.0.png, id=300, 1027.84pt x 1027.84pt>
+File: ./figures/UML Diagram/uml2.0.png Graphic file (type png)
+<use ./figures/UML Diagram/uml2.0.png>
+Package pdftex.def Info: ./figures/UML Diagram/uml2.0.png  used on input line 8.
+(pdftex.def)             Requested size: 426.79135pt x 426.79659pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 9.
+See the caption package documentation for explanation.
+
+
+
+[8
+
+
+]
+
+[9 <./figures/UML Diagram/uml2.0.png (PNG copy)>]
+<./figures/Activity Diagram/actd.jpg, id=311, 391.2216pt x 561.7788pt>
+File: ./figures/Activity Diagram/actd.jpg Graphic file (type jpg)
+<use ./figures/Activity Diagram/actd.jpg>
+Package pdftex.def Info: ./figures/Activity Diagram/actd.jpg  used on input line 35.
+(pdftex.def)             Requested size: 426.79135pt x 612.85822pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 36.
+See the caption package documentation for explanation.
+
+
+
+[10]
+<./figures/Activity Diagram/1_reg.png, id=318, 557.6835pt x 486.618pt>
+File: ./figures/Activity Diagram/1_reg.png Graphic file (type png)
+<use ./figures/Activity Diagram/1_reg.png>
+Package pdftex.def Info: ./figures/Activity Diagram/1_reg.png  used on input line 43.
+(pdftex.def)             Requested size: 341.43437pt x 297.93547pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 44.
+See the caption package documentation for explanation.
+
+
+
+[11 <./figures/Activity Diagram/actd.jpg>]
+<./figures/Activity Diagram/2_activity.jpg, id=324, 322.20375pt x 1090.0725pt>
+File: ./figures/Activity Diagram/2_activity.jpg Graphic file (type jpg)
+<use ./figures/Activity Diagram/2_activity.jpg>
+Package pdftex.def Info: ./figures/Activity Diagram/2_activity.jpg  used on input line 50.
+(pdftex.def)             Requested size: 213.39568pt x 721.97832pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 51.
+See the caption package documentation for explanation.
+
+
+
+[12 <./figures/Activity Diagram/1_reg.png>]
+Overfull \vbox (19.19524pt too high) has occurred while \output is active []
+
+
+
+[13 <./figures/Activity Diagram/2_activity.jpg>]
+<./figures/Activity Diagram/3_acivity.png, id=334, 803.0pt x 803.0pt>
+File: ./figures/Activity Diagram/3_acivity.png Graphic file (type png)
+<use ./figures/Activity Diagram/3_acivity.png>
+Package pdftex.def Info: ./figures/Activity Diagram/3_acivity.png  used on input line 57.
+(pdftex.def)             Requested size: 341.43437pt x 341.4359pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 58.
+See the caption package documentation for explanation.
+
+<./figures/Activity Diagram/4_crud_activity.png, id=335, 1027.84pt x 1541.76pt>
+File: ./figures/Activity Diagram/4_crud_activity.png Graphic file (type png)
+<use ./figures/Activity Diagram/4_crud_activity.png>
+Package pdftex.def Info: ./figures/Activity Diagram/4_crud_activity.png  used on input line 64.
+(pdftex.def)             Requested size: 341.43437pt x 512.1465pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 65.
+See the caption package documentation for explanation.
+
+
+
+[14 <./figures/Activity Diagram/3_acivity.png>]
+
+[15 <./figures/Activity Diagram/4_crud_activity.png (PNG copy)>]
+<./figures/Sequence Diagram/sqd.jpg, id=347, 511.9125pt x 852.18375pt>
+File: ./figures/Sequence Diagram/sqd.jpg Graphic file (type jpg)
+<use ./figures/Sequence Diagram/sqd.jpg>
+Package pdftex.def Info: ./figures/Sequence Diagram/sqd.jpg  used on input line 92.
+(pdftex.def)             Requested size: 341.43437pt x 568.3855pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 93.
+See the caption package documentation for explanation.
+
+
+
+[16]
+<./figures/Sequence Diagram/1_seq.png, id=354, 1647.90656pt x 1048.66782pt>
+File: ./figures/Sequence Diagram/1_seq.png Graphic file (type png)
+<use ./figures/Sequence Diagram/1_seq.png>
+Package pdftex.def Info: ./figures/Sequence Diagram/1_seq.png  used on input line 99.
+(pdftex.def)             Requested size: 384.1096pt x 244.4368pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 100.
+See the caption package documentation for explanation.
+
+
+
+[17 <./figures/Sequence Diagram/sqd.jpg>]
+<./figures/Sequence Diagram/2_seq.jpg, id=359, 837.1275pt x 702.625pt>
+File: ./figures/Sequence Diagram/2_seq.jpg Graphic file (type jpg)
+<use ./figures/Sequence Diagram/2_seq.jpg>
+Package pdftex.def Info: ./figures/Sequence Diagram/2_seq.jpg  used on input line 106.
+(pdftex.def)             Requested size: 426.79135pt x 358.21606pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 107.
+See the caption package documentation for explanation.
+
+
+
+[18 <./figures/Sequence Diagram/1_seq.png> <./figures/Sequence Diagram/2_seq.jpg>]
+<./figures/Sequence Diagram/3_seq.png, id=365, 1204.5pt x 1204.5pt>
+File: ./figures/Sequence Diagram/3_seq.png Graphic file (type png)
+<use ./figures/Sequence Diagram/3_seq.png>
+Package pdftex.def Info: ./figures/Sequence Diagram/3_seq.png  used on input line 113.
+(pdftex.def)             Requested size: 426.79135pt x 426.801pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 114.
+See the caption package documentation for explanation.
+
+<./figures/Sequence Diagram/4_crud_sequence.png, id=366, 1027.84pt x 1027.84pt>
+File: ./figures/Sequence Diagram/4_crud_sequence.png Graphic file (type png)
+<use ./figures/Sequence Diagram/4_crud_sequence.png>
+Package pdftex.def Info: ./figures/Sequence Diagram/4_crud_sequence.png  used on input line 120.
+(pdftex.def)             Requested size: 341.43437pt x 341.431pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 121.
+See the caption package documentation for explanation.
+
+
+
+[19 <./figures/Sequence Diagram/3_seq.png>]
+
+[20 <./figures/Sequence Diagram/4_crud_sequence.png (PNG copy)>]
+<./figures/Use Case Diagrams/uc_1.3.png, id=379, 974.13937pt x 778.40813pt>
+File: ./figures/Use Case Diagrams/uc_1.3.png Graphic file (type png)
+<use ./figures/Use Case Diagrams/uc_1.3.png>
+Package pdftex.def Info: ./figures/Use Case Diagrams/uc_1.3.png  used on input line 146.
+(pdftex.def)             Requested size: 341.43437pt x 272.82701pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 147.
+See the caption package documentation for explanation.
+
+<./figures/Use Case Diagrams/1_usecase.jpg, id=380, 722.7pt x 722.7pt>
+File: ./figures/Use Case Diagrams/1_usecase.jpg Graphic file (type jpg)
+<use ./figures/Use Case Diagrams/1_usecase.jpg>
+Package pdftex.def Info: ./figures/Use Case Diagrams/1_usecase.jpg  used on input line 153.
+(pdftex.def)             Requested size: 341.43437pt x 341.43344pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 154.
+See the caption package documentation for explanation.
+
+
+
+[21 <./figures/Use Case Diagrams/uc_1.3.png>]
+<./figures/Use Case Diagrams/2_usecaase.jpg, id=387, 340.27126pt x 650.43pt>
+File: ./figures/Use Case Diagrams/2_usecaase.jpg Graphic file (type jpg)
+<use ./figures/Use Case Diagrams/2_usecaase.jpg>
+Package pdftex.def Info: ./figures/Use Case Diagrams/2_usecaase.jpg  used on input line 160.
+(pdftex.def)             Requested size: 213.39568pt x 407.90721pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 161.
+See the caption package documentation for explanation.
+
+
+
+[22 <./figures/Use Case Diagrams/1_usecase.jpg>]
+<./figures/Use Case Diagrams/3_usecase.png, id=392, 612.2875pt x 335.2525pt>
+File: ./figures/Use Case Diagrams/3_usecase.png Graphic file (type png)
+<use ./figures/Use Case Diagrams/3_usecase.png>
+Package pdftex.def Info: ./figures/Use Case Diagrams/3_usecase.png  used on input line 167.
+(pdftex.def)             Requested size: 341.43437pt x 186.9472pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 168.
+See the caption package documentation for explanation.
+
+
+
+[23 <./figures/Use Case Diagrams/2_usecaase.jpg> <./figures/Use Case Diagrams/3_usecase.png>]
+<./figures/Use Case Diagrams/4_crud_usecase.png, id=398, 1541.76pt x 1027.84pt>
+File: ./figures/Use Case Diagrams/4_crud_usecase.png Graphic file (type png)
+<use ./figures/Use Case Diagrams/4_crud_usecase.png>
+Package pdftex.def Info: ./figures/Use Case Diagrams/4_crud_usecase.png  used on input line 174.
+(pdftex.def)             Requested size: 341.43437pt x 227.61543pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 175.
+See the caption package documentation for explanation.
+
+)
+
+[24 <./figures/Use Case Diagrams/4_crud_usecase.png (PNG copy)>]
+Chapter 5.
+(chapters/implementation_details.tex)
+
+[25
+
+
+]
+Chapter 6.
+(chapters/testing.tex)
+
+[26
+
+
+]
+Chapter 7.
+(chapters/challanges_and_solutions.tex)
+
+[27
+
+
+]
+Chapter 8.
+(chapters/conclusion.tex)
+
+[28
+
+]
+
+[29] (main.bbl)
+
+[30
 
 
 ] (main.aux)
@@ -1725,20 +1993,20 @@ LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 66F5B6EB80C995ADEE1F7B51C2F879CC;1772.
+(rerunfilecheck)             Checksum: 0395CBB43066B8E45AC54F27FE7E712B;6084.
  ) 
 Here is how much of TeX's memory you used:
- 36681 strings out of 473920
- 674895 string characters out of 5726974
- 1935908 words of memory out of 5000000
- 58672 multiletter control sequences out of 15000+600000
- 604329 words of font info for 174 fonts, out of 8000000 for 9000
+ 37011 strings out of 473920
+ 684138 string characters out of 5726974
+ 1942908 words of memory out of 5000000
+ 58859 multiletter control sequences out of 15000+600000
+ 606388 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,12n,121p,1106b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,12n,121p,1106b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 83574 bytes).
+Output written on main.pdf (35 pages, 4628603 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 49285 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 477 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 49581 words of extra memory for PDF output out of 51595 (max. 10000000)
 

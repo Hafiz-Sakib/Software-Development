@@ -470,7 +470,6 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT main.toc
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -479,6 +478,7 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.v
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+OUTPUT main.toc
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
@@ -527,6 +527,148 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\chapters\methodology.tex
+INPUT .\chapters\methodology.tex
+INPUT .\chapters\methodology.tex
+INPUT .\chapters\methodology.tex
+INPUT chapters\methodology.tex
+INPUT .\chapters\diagram.tex
+INPUT .\chapters\diagram.tex
+INPUT .\chapters\diagram.tex
+INPUT .\chapters\diagram.tex
+INPUT chapters\diagram.tex
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\UML Diagram\uml2.0.png
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\actd.jpg
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\1_reg.png
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\2_activity.jpg
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\3_acivity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Activity Diagram\4_crud_activity.png
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\sqd.jpg
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\1_seq.png
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\2_seq.jpg
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\3_seq.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Sequence Diagram\4_crud_sequence.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\uc_1.3.png
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\1_usecase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\2_usecaase.jpg
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\3_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\figures\Use Case Diagrams\4_crud_usecase.png
+INPUT .\chapters\implementation_details.tex
+INPUT .\chapters\implementation_details.tex
+INPUT .\chapters\implementation_details.tex
+INPUT .\chapters\implementation_details.tex
+INPUT chapters\implementation_details.tex
+INPUT .\chapters\testing.tex
+INPUT .\chapters\testing.tex
+INPUT .\chapters\testing.tex
+INPUT .\chapters\testing.tex
+INPUT chapters\testing.tex
+INPUT .\chapters\challanges_and_solutions.tex
+INPUT .\chapters\challanges_and_solutions.tex
+INPUT .\chapters\challanges_and_solutions.tex
+INPUT .\chapters\challanges_and_solutions.tex
+INPUT chapters\challanges_and_solutions.tex
+INPUT .\chapters\conclusion.tex
+INPUT .\chapters\conclusion.tex
+INPUT .\chapters\conclusion.tex
+INPUT .\chapters\conclusion.tex
+INPUT chapters\conclusion.tex
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
