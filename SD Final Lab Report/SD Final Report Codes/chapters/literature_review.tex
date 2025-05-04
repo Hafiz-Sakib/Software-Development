@@ -1,0 +1,23 @@
+\section{Introduction}
+Plant diseases continue to pose a significant threat to global food security, particularly in regions heavily reliant on agriculture. Among various crops, cassava is a crucial staple in many developing countries, making the early detection of its diseases a priority. This section introduces the importance of automated plant disease detection systems and the motivation behind leveraging deep learning techniques, especially convolutional neural networks (CNNs), for this purpose. Our project, LeafGuard, builds on this foundation to detect cassava diseases using image-based analysis.
+
+\section{Background Study}
+Traditional methods for plant disease detection, such as expert consultation and laboratory testing, are often time-consuming, costly, and inaccessible to small-scale farmers. The evolution of machine learning and, more recently, deep learning, has opened new possibilities in automating disease detection from leaf images.
+
+Numerous studies have shown the effectiveness of CNNs in classifying plant diseases. For example, researchers like Ramcharan et al. (2017) have developed mobile-based applications for cassava disease detection with high accuracy using deep learning. Public datasets such as PlantVillage and custom datasets of cassava leaf images have facilitated significant progress in this area. Data augmentation techniques, including rotation, flipping, and contrast adjustments, are commonly applied to increase dataset diversity and improve model generalization.
+
+Challenges still remain, including varying lighting conditions, background noise, and differences in leaf appearance due to age or environmental factors. These are important considerations addressed in our methodology and system design.
+
+\subsection{Software Design Pattern}
+For the software architecture of LeafGuard, we adopted the Model-View-Controller (MVC) design pattern. This design approach enhances code organization and allows for independent development, testing, and scaling of components.
+
+\begin{itemize}
+    \item \textbf{Model:} Manages data-related logic, such as loading the trained CNN model, preprocessing input images, and outputting predictions.
+    \item \textbf{View:} Responsible for the user interface, where users can upload leaf images and view the classification results.
+    \item \textbf{Controller:} Acts as a bridge between the view and model, processing user inputs, invoking the model, and updating the interface with predictions.
+\end{itemize}
+
+The MVC pattern allows us to decouple the logic of disease detection from the presentation layer. This modularity is particularly useful when upgrading the model or expanding the user interface in future versions.
+
+\section{Summary}
+This chapter reviewed the foundational work and research relevant to plant disease detection using image classification. The rapid advancement of deep learning, especially CNNs, has made high-accuracy leaf disease detection feasible. Coupled with a modular design approach such as MVC, our project aims to deliver a robust, user-friendly, and scalable solution for cassava disease detection. The insights gained here inform the methodology used in our implementation, which is detailed in the following chapter.

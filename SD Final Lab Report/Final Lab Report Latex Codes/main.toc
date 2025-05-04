@@ -1,5 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{List of Figures}{\EnsureStandardFontEncoding {ii}}{Doc-Start}%
-\contentsline {chapter}{List of Figures}{\EnsureStandardFontEncoding {ii}}{section*.1}%
-\contentsline {chapter}{List of Tables}{\EnsureStandardFontEncoding {iii}}{section*.1}%
-\contentsline {chapter}{List of Tables}{\EnsureStandardFontEncoding {iii}}{section*.2}%
