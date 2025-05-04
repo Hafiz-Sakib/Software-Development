@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ReXNet150 architecture overview, illustrating the stack of inverted residual blocks with depthwise separable convolutions, progressive channel expansion, and final classifier head.}}{8}{figure.caption.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cassava Bacterial Blight (CBB)}}{12}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cassava Brown Streak Disease (CBSD)}}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cassava Green Mottle (CGM)}}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cassava Mosaic Disease (CMD)}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Healthy}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dataset Class Imbalance Analysis Chart}}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Training vs. Validation Accuracy across epochs for ReXNet150.}}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion matrix for ReXNet150 on the validation set.}}{16}{figure.caption.13}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Gantt chart showing the timeline of the project}}{21}{figure.caption.14}%
