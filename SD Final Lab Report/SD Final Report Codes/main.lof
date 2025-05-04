@@ -20,6 +20,14 @@
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Payment System Use Case Diagram}}{23}{figure.4.15}%
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Admin CRUD Operation Use Case Diagram}}{24}{figure.4.16}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Login Component Code Structure}}{26}{figure.caption.3}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces User Registration Code Structure}}{28}{figure.caption.4}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces API Routes Configuration Code Structure}}{31}{figure.caption.5}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Auth Controller Code Structure}}{33}{figure.caption.6}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Package Controller Code Structure}}{35}{figure.caption.7}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Booking System Code Structure}}{38}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Booking Controller Code Structure}}{40}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Booking Frontend State Management and API Integration Code Structure}}{42}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

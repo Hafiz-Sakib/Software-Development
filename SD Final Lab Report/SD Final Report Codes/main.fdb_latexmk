@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1746377794.87185 "main.aux" "main.bbl" "main" 1746377799.77055 0
+["bibtex main"] 1746382982.35072 "main.aux" "main.bbl" "main" 1746382994.8761 0
   "./references.bib" 1746377788 1307 9c2159c7b153264b08130491e9ae0857 ""
   "C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1746377798 11847 ef8135a308ecc52e998fa6ba75bdee7e "pdflatex"
+  "main.aux" 1746382993 18370 6e14aa18a499b90a09591fb9fdc697a7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1746377795.50187 "c:/PU Projects/PUC Courses/6th Semester/Software Development/SD Final Lab Report/SD Final Report Codes/main.tex" "main.pdf" "main" 1746377799.77131 0
+["pdflatex"] 1746382982.77976 "c:/PU Projects/PUC Courses/6th Semester/Software Development/SD Final Lab Report/SD Final Report Codes/main.tex" "main.pdf" "main" 1746382994.87707 0
   "C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746375174 556236 ff290ec3f556b43187807781ea723a6b ""
   "C:/Users/SAKIB/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1719207405 24264027 a7f34fefe87fe86baee30336a400e02b ""
   "C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -274,7 +274,7 @@
   "chapters/challanges_and_solutions.tex" 1746377630 6148 24b67b785c0c2c34febb9f7cb97a400a ""
   "chapters/conclusion.tex" 1746377737 3673 43b9a454999f9ec34d92172e169d47e3 ""
   "chapters/diagram.tex" 1746374131 8276 639089191c45ae36fe66bf6010c14c85 ""
-  "chapters/implementation_details.tex" 1746340823 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chapters/implementation_details.tex" 1746382974 13434 f9c1bacd1f44bfe63f136e9a97b02407 ""
   "chapters/introduction.tex" 1746339400 3845 2d741448fd66a5616e797bf893a53f61 ""
   "chapters/literature_review.tex" 1746340525 3266 a23849833059c47084b489a53732b03c ""
   "chapters/methodology.tex" 1746340674 2395 cc59d68fbd541a1fd45594c4721eb079 ""
@@ -295,13 +295,21 @@
   "figures/Use Case Diagrams/3_usecase.png" 1746372168 22769 28c8cbc3fb8cbc83b426072ac07a5ffe ""
   "figures/Use Case Diagrams/4_crud_usecase.png" 1746346761 862447 b3335b668010da05c8e2272b79cc51f4 ""
   "figures/Use Case Diagrams/uc_1.3.png" 1719496843 176609 2bbb39298e5defede3531a5322d887e0 ""
-  "main.aux" 1746377798 11847 ef8135a308ecc52e998fa6ba75bdee7e "pdflatex"
-  "main.bbl" 1746377795 1964 7aec28674b0948b20b42631df49b7dda "bibtex main"
-  "main.lof" 1746377798 2022 df8c66df926eefcbc231abc6e77ee959 "pdflatex"
-  "main.lot" 1746377798 435 1f41d87b49a9e5a2ed93ef47adc44075 "pdflatex"
-  "main.out" 1746377798 6006 cec8a989555004261e33153a3629d672 "pdflatex"
+  "figures/implementation/Auth Controller.png" 1746379720 1072323 62d0fae94a6364e7f7b655746bfa054e ""
+  "figures/implementation/Booking_Controller.png" 1746379771 654429 bf7b908376ef47a6136d162505b3d074 ""
+  "figures/implementation/Package_Controller.png" 1746379804 1408152 1ee32238c7bf4f1f2264123b4ffe4d8d ""
+  "figures/implementation/api.png" 1746379841 1155583 bda0d6b6535fb2c63792703e6aeb5247 ""
+  "figures/implementation/booked.png" 1746380142 3209666 da3d8d09f984b947f53a4b117ba81b73 ""
+  "figures/implementation/booking-frontend.png" 1746380017 1265208 6e0e5116a811f07f99c6763ffa98e3f9 ""
+  "figures/implementation/login2.png" 1746382069 466035 94afe52c9b64bcb0c840fb0034d5473c ""
+  "figures/implementation/signup.png" 1746380065 828932 caf38589ab1d79a1601292df8b259c2b ""
+  "main.aux" 1746382993 18370 6e14aa18a499b90a09591fb9fdc697a7 "pdflatex"
+  "main.bbl" 1746382982 1964 7aec28674b0948b20b42631df49b7dda "bibtex main"
+  "main.lof" 1746382993 2965 0210e12071b17c487c2aeb62a6b1f520 "pdflatex"
+  "main.lot" 1746382993 435 1ef869033b5a4eeaeac16760daaea41e "pdflatex"
+  "main.out" 1746382993 11459 1d592c170a9db1ec849ce2054de8f348 "pdflatex"
   "main.tex" 1746376171 2861 ee50bd487c7af665f782e1edafc4086f ""
-  "main.toc" 1746377798 4417 a615ee39eb420bdc0c73db1e08c15e6a "pdflatex"
+  "main.toc" 1746382993 7402 47bf243236ac63e4710fc2453a385327 "pdflatex"
   "pages/abstract.tex" 1746339332 1288 eb27a265036504a01351a7f682eca014 ""
   "thesis.sty" 1739429177 5773 8fab2e558ee7842e824c237c4e30b94f ""
   (generated)

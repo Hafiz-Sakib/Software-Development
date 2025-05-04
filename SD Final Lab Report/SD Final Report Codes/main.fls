@@ -660,17 +660,73 @@ INPUT .\chapters\implementation_details.tex
 INPUT .\chapters\implementation_details.tex
 INPUT .\chapters\implementation_details.tex
 INPUT chapters\implementation_details.tex
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT .\figures\implementation\login2.png
+INPUT .\figures\implementation\login2.png
+INPUT .\figures\implementation\login2.png
+INPUT .\figures\implementation\login2.png
+INPUT .\figures\implementation\login2.png
+INPUT .\figures\implementation\login2.png
+INPUT .\figures\implementation\login2.png
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\signup.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\api.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Auth Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\Package_Controller.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\booked.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\Booking_Controller.png
+INPUT .\figures\implementation\booking-frontend.png
+INPUT .\figures\implementation\booking-frontend.png
+INPUT .\figures\implementation\booking-frontend.png
+INPUT .\figures\implementation\booking-frontend.png
+INPUT .\figures\implementation\booking-frontend.png
+INPUT .\figures\implementation\booking-frontend.png
+INPUT .\figures\implementation\booking-frontend.png
 INPUT .\chapters\testing.tex
 INPUT .\chapters\testing.tex
 INPUT .\chapters\testing.tex
 INPUT .\chapters\testing.tex
 INPUT chapters\testing.tex
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
